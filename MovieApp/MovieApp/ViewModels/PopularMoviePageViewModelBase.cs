@@ -1,22 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reactive.Linq;
 using System.Threading.Tasks;
 using Acr.UserDialogs;
 using MovieApp.Entities;
 using MovieApp.Entities.Server;
 using MovieApp.Services;
 using MovieApp.Views;
-using Prism.Commands;
 using Prism.Navigation;
 using Reactive.Bindings;
 
 namespace MovieApp.ViewModels
 {
-    public class SearchPageViewModel : ViewModelBase
+    public abstract class PopularMoviePageViewModelBase : ViewModelBase
     {
-        readonly IMovieService _movieService;
+        protected readonly IMovieService _movieService;
 
         public ReactiveProperty<string> Keyword { get; set; }
 
@@ -33,17 +31,16 @@ namespace MovieApp.ViewModels
         public ReactiveProperty<bool> IsExistText => new ReactiveProperty<bool>(MovieList == null || !MovieList.Any());
         public ReactiveProperty<bool> IsExistList => new ReactiveProperty<bool>(MovieList != null && MovieList.Any());
 
-        public SearchPageViewModel(INavigationService navigationService, IMovieService movieService, IDialogService dialogService) : base(navigationService, dialogService)
+        public PopularMoviePageViewModelBase(INavigationService navigationService, IMovieService movieService, IDialogService dialogService) : base(navigationService, dialogService)
         {
             _movieService = movieService;
-
             Keyword = new ReactiveProperty<string>();
 
             IsExistText.Value = false;
             SearchMovieCommand = new AsyncReactiveCommand();
             SearchMovieCommand.Subscribe(async () =>
             {
-                await PullData();
+                PullData();
             });
             SelectedItemCommand = new AsyncReactiveCommand<Movie>();
             SelectedItemCommand.Subscribe(async movie =>
@@ -55,7 +52,7 @@ namespace MovieApp.ViewModels
                 await _navigationService.NavigateAsync(nameof(MovieDetailPage), param);
             });
             ClearSearchCommand = new AsyncReactiveCommand();
-            ClearSearchCommand.Subscribe( async () =>
+            ClearSearchCommand.Subscribe(async () =>
             {
                 MovieList = new List<Movie>();
                 Keyword.Value = null;
@@ -64,23 +61,10 @@ namespace MovieApp.ViewModels
 
         public override void OnNavigatingTo(INavigationParameters parameters)
         {
+            PullData();
             base.OnNavigatingTo(parameters);
         }
+        protected abstract void PullData();
 
-        async Task PullData()
-        {
-            ApiResponse<MovieList> response;
-            using (UserDialogs.Instance.Loading())
-            {
-                response = await _movieService.GetSearchMovieRequest(Keyword.Value);
-            }
-            response.Check((result) =>
-            {
-                MovieList = _movieService.GetMovieList(result);
-            }, async (statusCode) =>
-            {
-                await HandleApiError(statusCode, async (errorCode) => await _dialogService.ShowDialogAsync(statusCode));
-            });
-        }
     }
 }

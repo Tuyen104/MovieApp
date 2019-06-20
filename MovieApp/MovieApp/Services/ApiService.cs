@@ -12,10 +12,13 @@ namespace MovieApp.Services
 {
     public interface IApiService
     {
+        Task<ApiResponse<string>> GetPopularMovieResult();
+        Task<ApiResponse<string>> GetUpComingMovieResult();
         Task<ApiResponse<string>> GetMovieListResult(string keyword);
         Task<ApiResponse<string>> GetMovieDetail(string movieId);
         bool IsNetworkConnected();
         Task<ApiResponse<T>> RequestObject<T>(Method method, Uri uri, object param = null);
+
     }
 
     public enum Method
@@ -31,6 +34,8 @@ namespace MovieApp.Services
         const string JsonContentMediaType = "application/json";
         const string MovieDetail = "/movie";
         const string MovieSearch = "/search/movie";
+        const string PopularMovie = "/movie/popular";
+        const string UpComingMovie = "/movie/upcoming";
         const string ApiKey = "3828a6354201235e6eee5f586d095059";
         const string Language = "en-US";
 
@@ -59,6 +64,12 @@ namespace MovieApp.Services
 
         public Task<ApiResponse<string>> GetMovieListResult(string keyword)
             => RequestObject<string>(Method.Get, new Uri(_configurationService.MovieBaseUrl + MovieSearch + "?api_key="+ApiKey+"&language="+Language+"&query="+keyword));
+
+        public Task<ApiResponse<string>> GetPopularMovieResult()
+            => RequestObject<string>(Method.Get, new Uri(_configurationService.MovieBaseUrl + PopularMovie + "?api_key=" + ApiKey + "&language=" + Language));
+
+        public Task<ApiResponse<string>> GetUpComingMovieResult()
+            => RequestObject<string>(Method.Get, new Uri(_configurationService.MovieBaseUrl + UpComingMovie + "?api_key=" + ApiKey + "&language=" + Language));
 
         public async Task<ApiResponse<T>> RequestObject<T>(Method method, Uri uri, object param = null)
         {

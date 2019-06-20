@@ -1,0 +1,70 @@
+﻿<Properties StartupConfiguration="{94B469CE-12DE-4271-99B5-5823E077B1F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModel.cs">
+    <Files>
+      <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml" />
+      <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml.cs" Line="9" Column="6" />
+      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModel.cs" Line="20" Column="18" />
+      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" Line="64" Column="1" />
+      <File FileName="MovieApp/MovieApp/Views/UpComingMoviePage.xaml" />
+      <File FileName="MovieApp/MovieApp/Views/UpComingMoviePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MovieApp/MovieApp/ViewModels/UpComingMoviePageViewModel.cs" Line="17" Column="42" />
+      <File FileName="MovieApp/MovieApp/ViewModels/UpComingMoviePageViewModelBase.cs" Line="39" Column="14" />
+      <File FileName="MovieApp/MovieApp/Services/MovieService.cs" Line="57" Column="1" />
+      <File FileName="MovieApp/MovieApp/Services/ApiService.cs" Line="69" Column="1" />
+      <File FileName="MovieApp/MovieApp/App.xaml.cs" Line="21" Column="1" />
+      <File FileName="MovieApp/MovieApp.iOS/AppDelegate.cs" Line="28" Column="1" />
+      <File FileName="MovieApp/MovieApp.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MovieApp" expanded="True">
+            <Node name="MovieApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controls" expanded="True">
+                <Node name="MovieListView.xaml" expanded="True" />
+              </Node>
+              <Node name="Converters" expanded="True" />
+              <Node name="Entities" expanded="True">
+                <Node name="Server" expanded="True" />
+              </Node>
+              <Node name="Extensions" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="PopularMoviePageViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="MovieTabPage.xaml" expanded="True" />
+                <Node name="PopularMoviePage.xaml" expanded="True" />
+                <Node name="SearchPage.xaml" expanded="True" />
+                <Node name="UpComingMoviePage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="MovieApp.iOS" expanded="True">
+              <Node name="Renderers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MovieApp.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" relfile="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" line="64" column="1" />
+      <Breakpoint file="/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/ViewModels/PopularMoviePageViewModel.cs" relfile="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModel.cs" line="23" column="1" />
+      <Breakpoint file="/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/ViewModels/PopularMoviePageViewModel.cs" relfile="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModel.cs" line="21" column="1" />
+      <Breakpoint file="/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/Services/MovieService.cs" relfile="MovieApp/MovieApp/Services/MovieService.cs" line="57" column="1" />
+      <Breakpoint file="/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/Services/MovieService.cs" relfile="MovieApp/MovieApp/Services/MovieService.cs" line="60" column="1" />
+      <Breakpoint file="/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/Services/MovieService.cs" relfile="MovieApp/MovieApp/Services/MovieService.cs" line="62" column="1" />
+      <Breakpoint file="/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/Services/ApiService.cs" relfile="MovieApp/MovieApp/Services/ApiService.cs" line="69" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MovieApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0B3FF7AF-2A26-4AFE-899D-574889841B8D" />
+</Properties>

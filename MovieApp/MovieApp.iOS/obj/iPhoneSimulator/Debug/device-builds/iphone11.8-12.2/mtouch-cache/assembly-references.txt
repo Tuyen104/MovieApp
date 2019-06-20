@@ -1,6 +1,6 @@
-/Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/MovieApp.iOS.exe
+/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/MovieApp.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/mscorlib.dll
-/Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp/bin/Debug/netstandard2.0/MovieApp.dll
+/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/bin/Debug/netstandard2.0/MovieApp.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/Facades/netstandard.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/System.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/System.dll

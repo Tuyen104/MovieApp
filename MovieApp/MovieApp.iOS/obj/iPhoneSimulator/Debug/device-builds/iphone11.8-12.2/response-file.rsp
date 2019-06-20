@@ -1,5 +1,5 @@
---cache=/Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
---sim=/Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/MovieApp.iOS.app
+--cache=/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
+--sim=/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/MovieApp.iOS.app
 --executable=MovieApp.iOS
 --debug
 --nolink
@@ -9,9 +9,9 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
+--symbollist=/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
 --dsym=no
--r=/Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp/bin/Debug/netstandard2.0/MovieApp.dll
+-r=/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/bin/Debug/netstandard2.0/MovieApp.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
@@ -215,7 +215,7 @@
 -r=/Users/tuyenlt/.nuget/packages/xamarin.forms/3.2.0.839982/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/tuyenlt/.nuget/packages/xamarin.forms/3.2.0.839982/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/tuyenlt/.nuget/packages/xamarin.forms.behaviorspack/2.0.0/lib/netstandard2.0/Xamarin.Forms.BehaviorsPack.dll
--r=/Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp/bin/Debug/netstandard2.0/MovieApp.dll
+-r=/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/bin/Debug/netstandard2.0/MovieApp.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/MovieApp.iOS.exe
+--root-assembly=/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/MovieApp.iOS.exe
 
