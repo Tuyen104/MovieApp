@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MovieApp.Views.MovieDetailPage" Title="Movie Detail">
+    <ContentPage.Content>
+        <ScrollView Margin="15,15" Padding="5,5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Source="{Binding Movie.PosterImgUrl}"/>
+                <StackLayout Grid.Row="1" Margin="0, 30, 0, 15">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Column="0" HorizontalOptions="StartAndExpand">
+                            <StackLayout>
+                                <Label Text="Title: " HorizontalOptions="Start" Style="{x:StaticResource GrayText}"/>
+                                <Label Text="{Binding Movie.Title}" Style="{x:StaticResource NormalText}" HorizontalOptions="StartAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="User Score: " HorizontalOptions="Start" Style="{x:StaticResource GrayText}"/>
+                                <Label Text="{Binding Movie.UserScore}" HorizontalOptions="StartAndExpand" Style="{x:StaticResource NormalText}"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label Text="Release Date: " HorizontalOptions="Start" Style="{x:StaticResource GrayText}"/>
+                                <Label Text="{Binding Movie.ReleaseDate, StringFormat='{0:MM/dd/yyyy}'}" HorizontalOptions="StartAndExpand" Style="{x:StaticResource NormalText}"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout Grid.Column="1" HorizontalOptions="EndAndExpand">
+                            <StackLayout>
+                                <Label Text="Genres: " HorizontalOptions="Start" Style="{x:StaticResource GrayText}"/>
+                                <Label Text="{Binding GenresList}" HorizontalOptions="StartAndExpand" Style="{x:StaticResource NormalText}"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label Text="Production Company: " HorizontalOptions="Start" Style="{x:StaticResource GrayText}"/>
+                                <Label Text="{Binding CompaniesList}" HorizontalOptions="StartAndExpand" Style="{x:StaticResource NormalText}"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Grid.Row="2">
+                    <BoxView  BackgroundColor="Gray" HeightRequest="1"/>
+                    <Label Text="Overview" HorizontalOptions="Start" Style="{x:StaticResource BigNormalText}" Margin="0, 20"/>
+                    <Label Text="{Binding Movie.Overview}" 
+                           HorizontalOptions="FillAndExpand" Style="{x:StaticResource GrayText}"/>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

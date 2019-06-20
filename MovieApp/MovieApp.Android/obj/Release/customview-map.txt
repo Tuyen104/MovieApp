@@ -1,0 +1,11 @@
+android.support.design.widget.TabLayout;obj/Release/res/layout/tabbar.xml
+android.support.v7.widget.Toolbar;obj/Release/res/layout/toolbar.xml
+corners;obj/Release/res/mipmap/framerenderervalue.xml
+item;obj/Release/res/mipmap/framerenderervalue.xml
+item;obj/Release/res/values/styles.xml
+layer-list;obj/Release/res/mipmap/framerenderervalue.xml
+padding;obj/Release/res/mipmap/framerenderervalue.xml
+resources;obj/Release/res/values/styles.xml
+shape;obj/Release/res/mipmap/framerenderervalue.xml
+solid;obj/Release/res/mipmap/framerenderervalue.xml
+style;obj/Release/res/values/styles.xml

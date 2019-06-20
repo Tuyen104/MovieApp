@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:statesbutton="clr-namespace:StatesButton.Forms;assembly=StatesButton.Forms"
+             xmlns:controls = "clr-namespace:MovieApp.Controls"
+             x:Class="MovieApp.Views.SearchPage"
+             xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+             xmlns:converters="clr-namespace:MovieApp.Converters"
+             Title="Search Movie">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="TextColor">#3B3B3B</Setter>
+                <Setter Property="BorderColor">Teal</Setter>
+                <Setter Property="BorderWidth">1</Setter>
+                <Setter Property="WidthRequest">80</Setter>
+            </Style>
+            <converters:ObjectToBoolConverter x:Key="ObjectToBoolConverter" />
+       </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" Orientation="Horizontal" Margin="20, 40">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                 </Grid>
+                    <Entry Grid.Column="0" Placeholder="Enter your keyword..." HorizontalOptions="Start" Keyboard="Text" Text="{Binding Keyword.Value}">
+                        
+                    </Entry>
+                    <StackLayout Grid.Column="1" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                        <Button x:Name="SearchBtn" HorizontalOptions="Center" Text="Search" WidthRequest="70" Padding="0" Command="{Binding SearchMovieCommand}" IsEnabled="{Binding Keyword.Value, Converter={StaticResource ObjectToBoolConverter}}"/>
+                        <Button x:Name="ClearBtn"  Text="Clear" HorizontalOptions="Center" WidthRequest="70" Padding="0" Command="{Binding ClearSearchCommand}"/>
+                    </StackLayout>
+            </StackLayout>
+            <controls:MovieListView Grid.Row="1"  Margin="10, 10" IsVisible="{Binding IsExistList.Value}"/>
+            <Label Text="No result" Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsVisible="{Binding IsExistText.Value}"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
