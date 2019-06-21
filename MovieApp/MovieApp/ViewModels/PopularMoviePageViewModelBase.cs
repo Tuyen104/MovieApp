@@ -40,7 +40,7 @@ namespace MovieApp.ViewModels
             SearchMovieCommand = new AsyncReactiveCommand();
             SearchMovieCommand.Subscribe(async () =>
             {
-                PullData();
+                SearchData(Keyword.Value);
             });
             SelectedItemCommand = new AsyncReactiveCommand<Movie>();
             SelectedItemCommand.Subscribe(async movie =>
@@ -65,6 +65,7 @@ namespace MovieApp.ViewModels
             base.OnNavigatingTo(parameters);
         }
         protected abstract void PullData();
+        protected abstract void SearchData(string keyword);
 
     }
 }

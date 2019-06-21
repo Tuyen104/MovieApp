@@ -2091,20 +2091,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/letuyen/.nuget/packages/": {}
+    "/Users/tuyenlt/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/MovieApp.iOS.csproj",
+      "projectUniqueName": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/MovieApp.iOS.csproj",
       "projectName": "MovieApp.iOS",
-      "projectPath": "/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/MovieApp.iOS.csproj",
-      "packagesPath": "/Users/letuyen/.nuget/packages/",
-      "outputPath": "/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/obj/",
+      "projectPath": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/MovieApp.iOS.csproj",
+      "packagesPath": "/Users/tuyenlt/.nuget/packages/",
+      "outputPath": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/letuyen/.config/NuGet/NuGet.Config"
+        "/Users/tuyenlt/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -2115,8 +2115,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp/MovieApp.csproj": {
-              "projectPath": "/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp/MovieApp.csproj"
+            "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/MovieApp.csproj": {
+              "projectPath": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/MovieApp.csproj"
             }
           }
         }

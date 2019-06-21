@@ -12,22 +12,38 @@ using Reactive.Bindings;
 
 namespace MovieApp.ViewModels
 {
-    public class UpComingMoviePageViewModel : UpComingMoviePageViewModelBase
+    public class UpComingMoviePageViewModel : PopularMoviePageViewModelBase
     {
         public UpComingMoviePageViewModel(INavigationService navigationService, IMovieService movieService, IDialogService dialogService) : base(navigationService, movieService, dialogService)
         {
 
         }
-        protected async override void PullData()
+        protected override async void PullData()
         {
             ApiResponse<MovieList> response;
-            using (UserDialogs.Instance.Loading())
-            {
-                response = await _movieService.GetPopularMovieRequest();
-            }
+            //using (UserDialogs.Instance.Loading())
+            //{
+                response = await _movieService.GetUpComingMovieRequest();
+            //}
             response.Check((result) =>
             {
                 MovieList = _movieService.GetMovieList(result);
+            }, async (statusCode) =>
+            {
+                await HandleApiError(statusCode, async (errorCode) => await _dialogService.ShowDialogAsync(statusCode));
+            });
+        }
+
+        protected override async void SearchData(string keyword)
+        {
+            ApiResponse<MovieList> response;
+            // using (UserDialogs.Instance.Loading())
+            //{
+            response = await _movieService.GetUpComingMovieRequest();
+            //}
+            response.Check((result) =>
+            {
+                MovieList = _movieService.GetMovieSearchData(result, keyword);
             }, async (statusCode) =>
             {
                 await HandleApiError(statusCode, async (errorCode) => await _dialogService.ShowDialogAsync(statusCode));

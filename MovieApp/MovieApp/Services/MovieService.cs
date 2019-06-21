@@ -15,6 +15,7 @@ namespace MovieApp.Services
         Task<ApiResponse<MovieList>> GetUpComingMovieRequest();
         Task<ApiResponse<MovieList>> GetSearchMovieRequest(string keyword);
         Task<ApiResponse<Movie>> GetMovieDetailRequest(string id);
+        List<Movie> GetMovieSearchData(MovieList movieList, string keyword);
 
     }
 
@@ -40,6 +41,11 @@ namespace MovieApp.Services
         public List<Movie> GetMovieList(MovieList movieList)
         {
             return movieList.Movies.ToList();
+        }
+
+        public List<Movie> GetMovieSearchData(MovieList movieList, string keyword)
+        {
+            return movieList.Movies.Where(x => x.Title.ToLower().Contains(keyword.ToLower()) || x.Overview.ToLower().Contains(keyword.ToLower())).ToList();
         }
 
         public async Task<ApiResponse<Movie>> GetMovieDetailRequest(string id)
