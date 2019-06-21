@@ -76,3 +76,6 @@ C:/Users/WINDOWS/Desktop/MovieApp/MovieApp/MovieApp/obj/Debug/netstandard2.0/Mov
 /Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/obj/Debug/netstandard2.0/Views/MovieTabPage.xaml.g.cs
 /Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/obj/Debug/netstandard2.0/Views/PopularMoviePage.xaml.g.cs
 /Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/obj/Debug/netstandard2.0/Views/UpComingMoviePage.xaml.g.cs
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp/obj/Debug/netstandard2.0/Views/MovieTabPage.xaml.g.cs
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp/obj/Debug/netstandard2.0/Views/PopularMoviePage.xaml.g.cs
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp/obj/Debug/netstandard2.0/Views/UpComingMoviePage.xaml.g.cs

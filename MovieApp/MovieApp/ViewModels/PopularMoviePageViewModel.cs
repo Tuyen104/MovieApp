@@ -16,10 +16,10 @@ namespace MovieApp.ViewModels
         protected async override void PullData()
         {
                 ApiResponse<MovieList> response;
-                using (UserDialogs.Instance.Loading())
-                {
+//                using (UserDialogs.Instance.Loading())
+//                {
                     response = await _movieService.GetPopularMovieRequest();
-                }
+//                }
                 response.Check((result) =>
                 {
                     MovieList = _movieService.GetMovieList(result);

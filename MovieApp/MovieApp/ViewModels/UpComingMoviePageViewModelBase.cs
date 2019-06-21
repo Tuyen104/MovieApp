@@ -58,7 +58,7 @@ namespace MovieApp.ViewModels
 
         public override void OnNavigatingTo(INavigationParameters parameters)
         {
-            PullData();
+           // PullData();
             base.OnNavigatingTo(parameters);
         }
         protected abstract void PullData();
