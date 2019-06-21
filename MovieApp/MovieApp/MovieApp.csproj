@@ -24,6 +24,7 @@
     <Folder Include="Extensions\" />
     <Folder Include="Controls\" />
     <Folder Include="Converters\" />
+    <Folder Include="Behaviors\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ApiService.cs" />
