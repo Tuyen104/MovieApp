@@ -349,3 +349,7 @@
 /Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/MaterialControls.dll
 /Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/Naxam.TopTabbedPage.Forms.dll
 /Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/Naxam.TopTabbedPage.Platform.iOS.dll
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/MaterialControls.dll
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/Naxam.TopTabbedPage.Forms.dll
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/Naxam.TopTabbedPage.Platform.iOS.dll
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Extended.InfiniteScrolling.dll

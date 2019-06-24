@@ -11,8 +11,8 @@ namespace MovieApp.Services
     public interface IMovieService
     {
         List<Movie> GetMovieList(MovieList movieList);
-        Task<ApiResponse<MovieList>> GetPopularMovieRequest();
-        Task<ApiResponse<MovieList>> GetUpComingMovieRequest();
+        Task<ApiResponse<MovieList>> GetPopularMovieRequest(int page);
+        Task<ApiResponse<MovieList>> GetUpComingMovieRequest(int page);
         Task<ApiResponse<MovieList>> GetSearchMovieRequest(string keyword);
         Task<ApiResponse<Movie>> GetMovieDetailRequest(string id);
         List<Movie> GetMovieSearchData(MovieList movieList, string keyword);
@@ -58,9 +58,9 @@ namespace MovieApp.Services
             return new ApiResponse<Movie>(new Movie(), response.GetStatusCode(), response.GetErrorMessage());
         }
 
-        public async Task<ApiResponse<MovieList>> GetPopularMovieRequest()
+        public async Task<ApiResponse<MovieList>> GetPopularMovieRequest(int page)
         {
-            var response = await _apiService.GetPopularMovieResult();
+            var response = await _apiService.GetPopularMovieResult(page);
             if (!response.HasError())
             {
                 return new ApiResponse<MovieList>(JsonConvert.DeserializeObject<MovieList>(response.GetResult()), response.GetStatusCode(), response.GetErrorMessage());
@@ -68,9 +68,9 @@ namespace MovieApp.Services
             return new ApiResponse<MovieList>(new MovieList(), response.GetStatusCode(), response.GetErrorMessage());
         }
 
-        public async Task<ApiResponse<MovieList>> GetUpComingMovieRequest()
+        public async Task<ApiResponse<MovieList>> GetUpComingMovieRequest(int page)
         {
-            var response = await _apiService.GetUpComingMovieResult();
+            var response = await _apiService.GetUpComingMovieResult(page);
             if (!response.HasError())
             {
                 return new ApiResponse<MovieList>(JsonConvert.DeserializeObject<MovieList>(response.GetResult()), response.GetStatusCode(), response.GetErrorMessage());

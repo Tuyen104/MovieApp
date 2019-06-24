@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="MovieApp.Controls.MovieListView"
              xmlns:controls="clr-namespace:MovieApp.Controls"
+             xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
              xmlns:behaviorsPack="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack">
-    <ListView ItemsSource="{Binding MovieList}" HasUnevenRows="true">
+    <ListView ItemsSource="{Binding MovieList}" HasUnevenRows="true" CachingStrategy="RecycleElement">
         <ListView.Behaviors>
+            <extended:InfiniteScrollBehavior IsLoadingMore="{Binding IsBusy}" />
             <behaviorsPack:SelectedItemBehavior Command="{Binding SelectedItemCommand}"/>
         </ListView.Behaviors>
         <ListView.ItemTemplate>
@@ -35,5 +37,17 @@
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
+        <ListView.Footer>
+                <Grid Padding="6" IsVisible="{Binding IsBusy}">
+                    <!-- set the footer to have a zero height when invisible -->
+                    <Grid.Triggers>
+                        <Trigger TargetType="Grid" Property="IsVisible" Value="False">
+                            <Setter Property="HeightRequest" Value="0" />
+                        </Trigger>
+                    </Grid.Triggers>
+                    <!-- the loading content -->
+                    <Label Text="Loading..." TextColor="Teal" FontSize="15" VerticalOptions="Center" HorizontalOptions="Center" />
+                </Grid>
+            </ListView.Footer>
     </ListView>
 </StackLayout>

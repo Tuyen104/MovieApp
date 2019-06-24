@@ -263,6 +263,19 @@
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.BehaviorsPack.dll": {}
         }
+      },
+      "Xamarin.Forms.Extended.InfiniteScrolling/1.0.0-preview2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll": {}
+        }
       }
     }
   },
@@ -1258,6 +1271,18 @@
         "xamarin.forms.behaviorspack.2.0.0.nupkg.sha512",
         "xamarin.forms.behaviorspack.nuspec"
       ]
+    },
+    "Xamarin.Forms.Extended.InfiniteScrolling/1.0.0-preview2": {
+      "sha512": "08cbuo2izAnGaM4o1XVOoEoICmPj6m6jDFq6NAvc8f4jEaXiZHaUMSKkSz5uuKVJoZWJLHUl+vAo7JjAcO6cLg==",
+      "type": "package",
+      "path": "xamarin.forms.extended.infinitescrolling/1.0.0-preview2",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.xml",
+        "xamarin.forms.extended.infinitescrolling.1.0.0-preview2.nupkg.sha512",
+        "xamarin.forms.extended.infinitescrolling.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1273,27 +1298,28 @@
       "System.Reactive >= 4.1.5",
       "Xam.Plugin.Connectivity >= 3.2.0",
       "Xamarin.Forms >= 3.2.0.839982",
-      "Xamarin.Forms.BehaviorsPack >= 2.0.0"
+      "Xamarin.Forms.BehaviorsPack >= 2.0.0",
+      "Xamarin.Forms.Extended.InfiniteScrolling >= 1.0.0-preview2"
     ]
   },
   "packageFolders": {
-    "/Users/tuyenlt/.nuget/packages/": {},
+    "/Users/letuyen/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
+      "projectUniqueName": "/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
       "projectName": "MovieApp",
-      "projectPath": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
-      "packagesPath": "/Users/tuyenlt/.nuget/packages/",
-      "outputPath": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/obj/",
+      "projectPath": "/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
+      "packagesPath": "/Users/letuyen/.nuget/packages/",
+      "outputPath": "/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/tuyenlt/.config/NuGet/NuGet.Config"
+        "/Users/letuyen/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -1364,6 +1390,10 @@
           "Xamarin.Forms.BehaviorsPack": {
             "target": "Package",
             "version": "[2.0.0, )"
+          },
+          "Xamarin.Forms.Extended.InfiniteScrolling": {
+            "target": "Package",
+            "version": "[1.0.0-preview2, )"
           }
         },
         "imports": [

@@ -9,16 +9,29 @@ using MovieApp.Services;
 using MovieApp.Views;
 using Prism.Navigation;
 using Reactive.Bindings;
+using Xamarin.Forms.Extended;
 
 namespace MovieApp.ViewModels
 {
     public abstract class PopularMoviePageViewModelBase : ViewModelBase
     {
+        private bool _isBusy;
+        public bool IsBusy
+        {
+            get => _isBusy;
+            set
+            {
+                _isBusy = value;
+                RaisePropertyChanged();
+            }
+        }
+
+        public InfiniteScrollCollection<Movie> MovieList { get; set; }
+        protected const int pageSize = 20;
+
         protected readonly IMovieService _movieService;
 
         public ReactiveProperty<string> Keyword { get; set; }
-
-        public List<Movie> MovieList { get; set; }
 
         public AsyncReactiveCommand<Movie> _selectedItemCommand;
 
@@ -37,10 +50,12 @@ namespace MovieApp.ViewModels
             Keyword = new ReactiveProperty<string>();
 
             IsExistText.Value = false;
+
+            PullData();
             SearchMovieCommand = new AsyncReactiveCommand();
             SearchMovieCommand.Subscribe(async () =>
             {
-                SearchData(Keyword.Value);
+                //SearchData(Keyword.Value);
             });
             SelectedItemCommand = new AsyncReactiveCommand<Movie>();
             SelectedItemCommand.Subscribe(async movie =>
@@ -54,18 +69,18 @@ namespace MovieApp.ViewModels
             ClearSearchCommand = new AsyncReactiveCommand();
             ClearSearchCommand.Subscribe(async () =>
             {
-                MovieList = new List<Movie>();
-                Keyword.Value = null;
+                //MovieList = new List<Movie>();
+                //Keyword.Value = null;
             });
         }
 
         public override void OnNavigatingTo(INavigationParameters parameters)
         {
-            PullData();
+            //PullData();
             base.OnNavigatingTo(parameters);
         }
         protected abstract void PullData();
-        protected abstract void SearchData(string keyword);
+        //protected abstract void SearchData(string keyword);
 
     }
 }

@@ -1,7 +1,11 @@
-﻿<Properties StartupConfiguration="{94B469CE-12DE-4271-99B5-5823E077B1F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/Controls/MovieListView.xaml">
+﻿<Properties StartupConfiguration="{94B469CE-12DE-4271-99B5-5823E077B1F1}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp.iOS/Main.cs">
     <Files>
+      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" Line="21" Column="1" />
+      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModel.cs" Line="44" Column="23" />
+      <File FileName="MovieApp/MovieApp/ViewModels/UpComingMoviePageViewModel.cs" Line="66" Column="42" />
       <File FileName="MovieApp/MovieApp/Controls/MovieListView.xaml" />
+      <File FileName="MovieApp/MovieApp.iOS/Main.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,26 +16,20 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Behaviors" expanded="True" />
-              <Node name="Controls" expanded="True">
-                <Node name="MovieListView.xaml" expanded="True" selected="True" />
-              </Node>
+              <Node name="Controls" expanded="True" />
               <Node name="Entities" expanded="True">
                 <Node name="Server" expanded="True" />
               </Node>
               <Node name="Extensions" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="PopularMoviePage.xaml" expanded="True" />
-                <Node name="UpComingMoviePage.xaml" expanded="True" />
-              </Node>
-              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="MovieApp.Android" expanded="True">
               <Node name="Renderers" expanded="True" />
             </Node>
             <Node name="MovieApp.iOS" expanded="True">
               <Node name="Renderers" expanded="True" />
+              <Node name="Main.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -45,5 +43,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MovieApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0B3FF7AF-2A26-4AFE-899D-574889841B8D" />
+  <MonoDevelop.Ide.ItemProperties.MovieApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E14D9D8D-85C4-4593-B4AF-CFE4CB2101A8" />
 </Properties>
