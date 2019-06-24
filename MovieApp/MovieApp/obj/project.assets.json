@@ -44,6 +44,18 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Naxam.TopTabbedPage.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Naxam.TopTabbedPage.Forms.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -373,6 +385,19 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+      "sha512": "EL9DUyM6G0aDO5yOO29b3nxdEvB9H6BtcX6N3tLl93it5P1XjitUwliX3KOyJUK2mCaa4PCOiZsZsJsTOgmpHg==",
+      "type": "package",
+      "path": "naxam.toptabbedpage.forms/0.0.3.3",
+      "files": [
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll",
+        "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Naxam.TopTabbedPage.Forms.dll",
+        "naxam.toptabbedpage.forms.0.0.3.3.nupkg.sha512",
+        "naxam.toptabbedpage.forms.nuspec"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -1239,6 +1264,7 @@
     ".NETStandard,Version=v2.0": [
       "Acr.UserDialogs >= 7.0.4",
       "NETStandard.Library >= 2.0.3",
+      "Naxam.TopTabbedPage.Forms >= 0.0.3.3",
       "Newtonsoft.Json >= 12.0.2",
       "Prism.DryIoc.Forms >= 7.1.0.431",
       "PropertyChanged.Fody >= 3.0.1",
@@ -1299,6 +1325,10 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "Naxam.TopTabbedPage.Forms": {
+            "target": "Package",
+            "version": "[0.0.3.3, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.2, )"
@@ -1343,5 +1373,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Naxam.TopTabbedPage.Forms 0.0.3.3' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Naxam.TopTabbedPage.Forms",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

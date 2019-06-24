@@ -41,6 +41,29 @@
           "build/_._": {}
         }
       },
+      "MaterialControls/1.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/MaterialControls.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MaterialControls.dll": {}
+        }
+      },
+      "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+        "type": "package",
+        "dependencies": {
+          "MaterialControls": "1.2.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll": {},
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll": {},
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -322,6 +345,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.4",
+          "Naxam.TopTabbedPage.Forms": "0.0.3.3",
           "Newtonsoft.Json": "12.0.2",
           "Prism.DryIoc.Forms": "7.1.0.431",
           "PropertyChanged.Fody": "3.0.1",
@@ -380,6 +404,29 @@
           "build/_._": {}
         }
       },
+      "MaterialControls/1.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/MaterialControls.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MaterialControls.dll": {}
+        }
+      },
+      "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+        "type": "package",
+        "dependencies": {
+          "MaterialControls": "1.2.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll": {},
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll": {},
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -661,6 +708,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.4",
+          "Naxam.TopTabbedPage.Forms": "0.0.3.3",
           "Newtonsoft.Json": "12.0.2",
           "Prism.DryIoc.Forms": "7.1.0.431",
           "PropertyChanged.Fody": "3.0.1",
@@ -719,6 +767,29 @@
           "build/_._": {}
         }
       },
+      "MaterialControls/1.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/MaterialControls.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MaterialControls.dll": {}
+        }
+      },
+      "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+        "type": "package",
+        "dependencies": {
+          "MaterialControls": "1.2.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll": {},
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll": {},
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -1000,6 +1071,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.4",
+          "Naxam.TopTabbedPage.Forms": "0.0.3.3",
           "Newtonsoft.Json": "12.0.2",
           "Prism.DryIoc.Forms": "7.1.0.431",
           "PropertyChanged.Fody": "3.0.1",
@@ -1058,6 +1130,29 @@
           "build/_._": {}
         }
       },
+      "MaterialControls/1.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/MaterialControls.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MaterialControls.dll": {}
+        }
+      },
+      "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+        "type": "package",
+        "dependencies": {
+          "MaterialControls": "1.2.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll": {},
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll": {},
+          "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -1339,6 +1434,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.4",
+          "Naxam.TopTabbedPage.Forms": "0.0.3.3",
           "Newtonsoft.Json": "12.0.2",
           "Prism.DryIoc.Forms": "7.1.0.431",
           "PropertyChanged.Fody": "3.0.1",
@@ -1459,6 +1555,30 @@
         "netstandardtask/Mono.Cecil.Rocks.pdb",
         "netstandardtask/Mono.Cecil.dll",
         "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "MaterialControls/1.2.2": {
+      "sha512": "cM/J8p5SIqPeOEO/3yS0KxtgL1aaDeTbTPwHoZcqzSpntE8qb6TIlXznG5EEaQqrdaTZ+Vt8k9SfWvRwrCqYrg==",
+      "type": "package",
+      "path": "materialcontrols/1.2.2",
+      "files": [
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/MaterialControls.dll",
+        "materialcontrols.1.2.2.nupkg.sha512",
+        "materialcontrols.nuspec"
+      ]
+    },
+    "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+      "sha512": "EL9DUyM6G0aDO5yOO29b3nxdEvB9H6BtcX6N3tLl93it5P1XjitUwliX3KOyJUK2mCaa4PCOiZsZsJsTOgmpHg==",
+      "type": "package",
+      "path": "naxam.toptabbedpage.forms/0.0.3.3",
+      "files": [
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll",
+        "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Naxam.TopTabbedPage.Forms.dll",
+        "naxam.toptabbedpage.forms.0.0.3.3.nupkg.sha512",
+        "naxam.toptabbedpage.forms.nuspec"
       ]
     },
     "Newtonsoft.Json/12.0.2": {

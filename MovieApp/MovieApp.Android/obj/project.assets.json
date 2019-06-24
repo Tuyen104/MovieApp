@@ -42,6 +42,18 @@
           "build/_._": {}
         }
       },
+      "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Naxam.TopTabbedPage.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Naxam.TopTabbedPage.Forms.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -544,6 +556,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.0.4",
+          "Naxam.TopTabbedPage.Forms": "0.0.3.3",
           "Newtonsoft.Json": "12.0.2",
           "Prism.DryIoc.Forms": "7.1.0.431",
           "PropertyChanged.Fody": "3.0.1",
@@ -663,6 +676,19 @@
         "netstandardtask/Mono.Cecil.Rocks.pdb",
         "netstandardtask/Mono.Cecil.dll",
         "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+      "sha512": "EL9DUyM6G0aDO5yOO29b3nxdEvB9H6BtcX6N3tLl93it5P1XjitUwliX3KOyJUK2mCaa4PCOiZsZsJsTOgmpHg==",
+      "type": "package",
+      "path": "naxam.toptabbedpage.forms/0.0.3.3",
+      "files": [
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll",
+        "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Naxam.TopTabbedPage.Forms.dll",
+        "naxam.toptabbedpage.forms.0.0.3.3.nupkg.sha512",
+        "naxam.toptabbedpage.forms.nuspec"
       ]
     },
     "Newtonsoft.Json/12.0.2": {

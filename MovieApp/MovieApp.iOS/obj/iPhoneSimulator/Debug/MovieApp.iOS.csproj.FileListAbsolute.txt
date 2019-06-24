@@ -346,3 +346,6 @@
 /Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.csproj.CopyComplete
 /Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.exe
 /Users/tuyenlt/Downloads/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.pdb
+/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/MaterialControls.dll
+/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/Naxam.TopTabbedPage.Forms.dll
+/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/Naxam.TopTabbedPage.Platform.iOS.dll

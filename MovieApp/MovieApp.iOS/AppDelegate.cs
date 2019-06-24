@@ -1,4 +1,5 @@
 ﻿using Foundation;
+using Naxam.Controls.Platform.iOS;
 using Prism;
 using Prism.Ioc;
 using UIKit;
@@ -23,9 +24,11 @@ namespace MovieApp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App(new iOSInitializer()));
+            TopTabbedRenderer.Init();
 
             return base.FinishedLaunching(app, options);
         }
+
     }
 
     public class iOSInitializer : IPlatformInitializer

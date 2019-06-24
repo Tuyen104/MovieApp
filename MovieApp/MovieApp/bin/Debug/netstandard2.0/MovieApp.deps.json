@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "60b41dcdbb8c5f594f4d67188aca93674e9e0fe3"
+    "signature": "0b644ae38571651f4454d203579dd455566403bb"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "Acr.UserDialogs": "7.0.4",
           "NETStandard.Library": "2.0.3",
+          "Naxam.TopTabbedPage.Forms": "0.0.3.3",
           "Newtonsoft.Json": "12.0.2",
           "Prism.DryIoc.Forms": "7.1.0.431",
           "PropertyChanged.Fody": "3.0.1",
@@ -44,6 +45,17 @@
       "Fody/5.0.6": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Naxam.TopTabbedPage.Forms.dll": {
+            "assemblyVersion": "0.0.3.3",
+            "fileVersion": "0.0.3.3"
+          }
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -264,6 +276,13 @@
       "sha512": "sha512-HvAzpoaIqrmZfsHAN4rLFji0r7YY5TP8r3SdkziXN7qU9KCpRIG+zfcBx+mIri/jkBNqjq4iWIfuYNtFBjSQ/g==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Naxam.TopTabbedPage.Forms/0.0.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EL9DUyM6G0aDO5yOO29b3nxdEvB9H6BtcX6N3tLl93it5P1XjitUwliX3KOyJUK2mCaa4PCOiZsZsJsTOgmpHg==",
+      "path": "naxam.toptabbedpage.forms/0.0.3.3",
+      "hashPath": "naxam.toptabbedpage.forms.0.0.3.3.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",

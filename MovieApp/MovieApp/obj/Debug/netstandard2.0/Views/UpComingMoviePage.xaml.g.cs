@@ -17,12 +17,12 @@ namespace MovieApp.Views {
     public partial class UpComingMoviePage : global::MovieApp.Controls.TopTabChildPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.SearchBar SearchBar;
+        private global::MovieApp.Controls.SearchBarCustom SearchBar;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(UpComingMoviePage));
-            SearchBar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.SearchBar>(this, "SearchBar");
+            SearchBar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MovieApp.Controls.SearchBarCustom>(this, "SearchBar");
         }
     }
 }

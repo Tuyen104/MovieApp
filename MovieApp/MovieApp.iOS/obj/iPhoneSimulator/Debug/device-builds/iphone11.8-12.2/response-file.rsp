@@ -164,6 +164,9 @@
 -r=/Users/tuyenlt/.nuget/packages/acr.userdialogs/7.0.4/lib/xamarinios10/Acr.UserDialogs.dll
 -r=/Users/tuyenlt/.nuget/packages/btprogresshud/1.2.0.6/lib/Xamarin.iOS10/BTProgressHUD.dll
 -r=/Users/tuyenlt/.nuget/packages/dryioc.dll/3.0.2/lib/netstandard2.0/DryIoc.dll
+-r=/Users/tuyenlt/.nuget/packages/materialcontrols/1.2.2/lib/Xamarin.iOS10/MaterialControls.dll
+-r=/Users/tuyenlt/.nuget/packages/naxam.toptabbedpage.forms/0.0.3.3/lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll
+-r=/Users/tuyenlt/.nuget/packages/naxam.toptabbedpage.forms/0.0.3.3/lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll
 -r=/Users/tuyenlt/.nuget/packages/newtonsoft.json/12.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
 -r=/Users/tuyenlt/.nuget/packages/prism.core/7.1.0.431/lib/netstandard2.0/Prism.dll
 -r=/Users/tuyenlt/.nuget/packages/prism.dryioc.forms/7.1.0.431/lib/netstandard2.0/Prism.DryIoc.Forms.dll

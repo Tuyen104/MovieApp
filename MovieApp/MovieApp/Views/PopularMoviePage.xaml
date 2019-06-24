@@ -19,15 +19,15 @@
     </controls:TopTabChildPage.Resources>
     <controls:TopTabChildPage.Content>
         <StackLayout Orientation="Vertical">
-            <SearchBar x:Name="SearchBar" 
-               Placeholder="Search" 
-               SearchCommand="{Binding SearchMovieCommand}" 
-               SearchCommandParameter="{Binding Text, Source={x:Reference SearchBar}}"
-               Text="{Binding Keyword.Value, Mode=TwoWay}">
-        <SearchBar.Behaviors>
-            <local:TextChangedBehavior />
-        </SearchBar.Behaviors>
-    </SearchBar>
+            <controls:SearchBarCustom x:Name="SearchBar"  TextColor="Gray"
+                        Placeholder="Search" 
+                        SearchCommand="{Binding SearchMovieCommand}" 
+                        SearchCommandParameter="{Binding Text, Source={x:Reference SearchBar}}"
+                        Text="{Binding Keyword.Value}">
+                <SearchBar.Behaviors>
+                    <local:TextChangedBehavior />
+                </SearchBar.Behaviors>
+            </controls:SearchBarCustom>
             <controls:MovieListView Grid.Row="1"  Margin="10, 10" IsVisible="{Binding IsExistList.Value}"/>
             <Label Text="No result" Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsVisible="{Binding IsExistText.Value}"/>
         </StackLayout>

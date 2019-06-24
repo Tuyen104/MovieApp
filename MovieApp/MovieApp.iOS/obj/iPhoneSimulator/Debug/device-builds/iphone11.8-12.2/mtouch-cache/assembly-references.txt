@@ -46,7 +46,10 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Annotations.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/System.ComponentModel.DataAnnotations.dll
 /Users/tuyenlt/.nuget/packages/newtonsoft.json/12.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
+/Users/tuyenlt/.nuget/packages/naxam.toptabbedpage.forms/0.0.3.3/lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll
 /Users/tuyenlt/.nuget/packages/xam.plugin.connectivity/3.2.0/lib/Xamarin.iOS10/Plugin.Connectivity.dll
 /Users/tuyenlt/.nuget/packages/xam.plugin.connectivity/3.2.0/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll
 /Users/tuyenlt/.nuget/packages/xamarin.forms.behaviorspack/2.0.0/lib/netstandard2.0/Xamarin.Forms.BehaviorsPack.dll
+/Users/tuyenlt/.nuget/packages/naxam.toptabbedpage.forms/0.0.3.3/lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll
+/Users/tuyenlt/.nuget/packages/materialcontrols/1.2.2/lib/Xamarin.iOS10/MaterialControls.dll
