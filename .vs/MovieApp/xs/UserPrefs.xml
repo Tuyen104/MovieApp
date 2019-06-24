@@ -1,15 +1,7 @@
 ﻿<Properties StartupConfiguration="{94B469CE-12DE-4271-99B5-5823E077B1F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp.iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/Controls/MovieListView.xaml">
     <Files>
-      <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml" />
-      <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml.cs" Line="9" Column="6" />
-      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" Line="41" Column="26" />
-      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModel.cs" Line="23" Column="20" />
-      <File FileName="MovieApp/MovieApp/ViewModels/UpComingMoviePageViewModel.cs" Line="39" Column="45" />
-      <File FileName="MovieApp/MovieApp/Views/UpComingMoviePage.xaml" />
-      <File FileName="MovieApp/MovieApp/Views/MovieTabPage.xaml" />
-      <File FileName="MovieApp/MovieApp/Controls/CustomTopTabbedPage.cs" Line="9" Column="8" />
-      <File FileName="MovieApp/MovieApp.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="MovieApp/MovieApp/Controls/MovieListView.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +12,9 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Behaviors" expanded="True" />
-              <Node name="Controls" expanded="True" />
+              <Node name="Controls" expanded="True">
+                <Node name="MovieListView.xaml" expanded="True" selected="True" />
+              </Node>
               <Node name="Entities" expanded="True">
                 <Node name="Server" expanded="True" />
               </Node>
@@ -38,7 +32,6 @@
             </Node>
             <Node name="MovieApp.iOS" expanded="True">
               <Node name="Renderers" expanded="True" />
-              <Node name="AppDelegate.cs" selected="True" />
             </Node>
           </Node>
         </State>
