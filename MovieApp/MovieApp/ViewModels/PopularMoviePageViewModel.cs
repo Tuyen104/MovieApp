@@ -28,7 +28,7 @@ namespace MovieApp.ViewModels
                 {
                     OnLoadMore = async () =>
                     {
-                       await Task.Delay(2000);
+                       //await Task.Delay(2000);
                         List<Movie> movie = null;
                         var page = MovieList.Count / pageSize + 1;
                         response = await _movieService.GetPopularMovieRequest(page);

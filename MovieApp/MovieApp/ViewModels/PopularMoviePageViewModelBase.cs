@@ -103,9 +103,10 @@ namespace MovieApp.ViewModels
                 {
                     OnLoadMore = async () =>
                     {
-                        await Task.Delay(2000);
+                        //await Task.Delay(2000);
                         List<Movie> movie = null;
                         var page = MovieList.Count / pageSize + 1;
+                        if (MovieList.Count != 0 && MovieList.Count < pageSize) return movie;
                         response = await _movieService.GetSearchMovieRequest(keyword, page);
                         response.Check((result) =>
                         {

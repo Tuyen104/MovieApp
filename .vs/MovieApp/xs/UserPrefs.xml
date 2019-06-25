@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{94B469CE-12DE-4271-99B5-5823E077B1F1}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/Views/PopularMoviePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/ViewModels/UpComingMoviePageViewModel.cs">
     <Files>
-      <File FileName="MovieApp/MovieApp/Controls/MovieListView.xaml.cs" Line="14" Column="35" />
       <File FileName="MovieApp/MovieApp/Controls/MovieListView.xaml" />
-      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" Line="67" Column="1" />
+      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" Line="106" Column="27" />
       <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml.cs" Line="29" Column="47" />
       <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml" />
-      <File FileName="MovieApp/MovieApp.iOS/Main.cs" Line="17" Column="1" />
       <File FileName="MovieApp/MovieApp/Views/UpComingMoviePage.xaml" />
+      <File FileName="MovieApp/MovieApp/ViewModels/UpComingMoviePageViewModel.cs" Line="63" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,11 +25,11 @@
               </Node>
               <Node name="Extensions" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="UpComingMoviePageViewModel.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="PopularMoviePage.xaml" expanded="True">
-                  <Node name="PopularMoviePage.xaml.cs" selected="True" />
-                </Node>
+                <Node name="PopularMoviePage.xaml" expanded="True" />
               </Node>
             </Node>
             <Node name="MovieApp.Android" expanded="True">
@@ -60,5 +59,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MovieApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0B3FF7AF-2A26-4AFE-899D-574889841B8D" />
+  <MonoDevelop.Ide.ItemProperties.MovieApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E14D9D8D-85C4-4593-B4AF-CFE4CB2101A8" />
 </Properties>

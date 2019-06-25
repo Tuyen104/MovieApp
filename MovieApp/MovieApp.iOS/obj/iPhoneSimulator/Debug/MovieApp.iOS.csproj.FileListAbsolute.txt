@@ -365,3 +365,14 @@
 /Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.pdb
 /Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/error.png
 /Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/loading.png
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/WebP.Touch.dll
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.dll
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.pdb
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.dll
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.pdb
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.dll
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.pdb
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.dll
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.pdb
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/error.png
+/Users/letuyen/Documents/3.GitHub/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/loading.png
