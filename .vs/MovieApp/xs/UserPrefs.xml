@@ -1,12 +1,7 @@
 ﻿<Properties StartupConfiguration="{94B469CE-12DE-4271-99B5-5823E077B1F1}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/ViewModels/UpComingMoviePageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/Views/PopularMoviePage.xaml.cs">
     <Files>
-      <File FileName="MovieApp/MovieApp/Controls/MovieListView.xaml" />
-      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" Line="106" Column="27" />
-      <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml.cs" Line="29" Column="47" />
-      <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml" />
-      <File FileName="MovieApp/MovieApp/Views/UpComingMoviePage.xaml" />
-      <File FileName="MovieApp/MovieApp/ViewModels/UpComingMoviePageViewModel.cs" Line="63" Column="27" />
+      <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml.cs" Line="27" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,11 +20,11 @@
               </Node>
               <Node name="Extensions" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="UpComingMoviePageViewModel.cs" selected="True" />
-              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="PopularMoviePage.xaml" expanded="True" />
+                <Node name="PopularMoviePage.xaml" expanded="True">
+                  <Node name="PopularMoviePage.xaml.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
             <Node name="MovieApp.Android" expanded="True">
