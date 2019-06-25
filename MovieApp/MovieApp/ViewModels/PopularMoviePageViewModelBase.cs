@@ -55,7 +55,7 @@ namespace MovieApp.ViewModels
             SearchMovieCommand = new AsyncReactiveCommand();
             SearchMovieCommand.Subscribe(async () =>
             {
-                //SearchData(Keyword.Value);
+                SearchData(Keyword.Value);
             });
             SelectedItemCommand = new AsyncReactiveCommand<Movie>();
             SelectedItemCommand.Subscribe(async movie =>
@@ -81,6 +81,20 @@ namespace MovieApp.ViewModels
         }
         protected abstract void PullData();
         //protected abstract void SearchData(string keyword);
-
+        protected async void SearchData(string keyword)
+        {
+            ApiResponse<MovieList> response;
+            // using (UserDialogs.Instance.Loading())
+            //{
+            response = await _movieService.GetUpComingMovieRequest();
+            //}
+            response.Check((result) =>
+            {
+                MovieList = _movieService.GetMovieSearchData(result, keyword);
+            }, async (statusCode) =>
+            {
+                await HandleApiError(statusCode, async (errorCode) => await _dialogService.ShowDialogAsync(statusCode));
+            });
+        }
     }
 }

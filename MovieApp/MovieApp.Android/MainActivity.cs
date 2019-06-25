@@ -18,6 +18,8 @@ namespace MovieApp.Droid
             base.OnCreate(savedInstanceState);
             UserDialogs.Init(this);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
+
             LoadApplication(new App(new AndroidInitializer()));
         }
     }

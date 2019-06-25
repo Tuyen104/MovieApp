@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MovieApp.Views.MovieDetailPage" Title="Movie Detail">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="MovieApp.Views.MovieDetailPage" Title="Movie Detail"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms">
     <ContentPage.Content>
         <ScrollView Margin="15,15" Padding="5,5">
             <Grid>
@@ -8,7 +10,18 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Image Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Source="{Binding Movie.PosterImgUrl}"/>
+                <ffimageloading:CachedImage 
+                            LoadingPlaceholder= "loading.png"
+                            ErrorPlaceholder= "error.png"
+                            CacheDuration= "50"
+                            RetryCount= "3"
+                            RetryDelay= "600"
+                            DownsampleToViewSize = "true"
+                            Grid.Row="0" HorizontalOptions="CenterAndExpand" 
+                            VerticalOptions="CenterAndExpand" Source="{Binding Movie.PosterImgUrl}"
+                            WidthRequest="190" HeightRequest="350">
+                </ffimageloading:CachedImage>
+                <!--<Image Grid.Row="0" HorizontalOptions="CenterAndExpand" WidthRequest="170" HeightRequest="350" VerticalOptions="CenterAndExpand" Source="{Binding Movie.PosterImgUrl}"/>-->
                 <StackLayout Grid.Row="1" Margin="0, 30, 0, 15">
                     <Grid>
                         <Grid.ColumnDefinitions>

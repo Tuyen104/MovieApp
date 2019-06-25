@@ -1,8 +1,13 @@
 Acr.UserDialogs
 AndHUD
 DryIoc
+FFImageLoading
+FFImageLoading.Forms
+FFImageLoading.Forms.Platform
+FFImageLoading.Platform
 FormsViewGroup
 MovieApp
+Naxam.TopTabbedPage.Forms
 Newtonsoft.Json
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
@@ -37,6 +42,7 @@ Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 Xamarin.Forms.BehaviorsPack
 Xamarin.Forms.Core
+Xamarin.Forms.Extended.InfiniteScrolling
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
@@ -46,3 +52,4 @@ System.Reflection.Extensions
 System.ComponentModel.Annotations
 System.Threading.Tasks.Extensions
 System.Runtime.InteropServices.WindowsRuntime
+System.Resources.ResourceManager
