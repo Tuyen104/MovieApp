@@ -36,6 +36,7 @@
     <Compile Remove="Views\MovieDetail.xaml.cs" />
     <Compile Remove="ViewModels\MovieDetailViewModel.cs" />
     <Compile Remove="ViewModels\UpComingMoviePageViewModelBase.cs" />
+    <Compile Remove="ViewModels\SearchPageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\MainPage.xaml" />

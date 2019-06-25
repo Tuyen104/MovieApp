@@ -20,9 +20,13 @@ namespace MovieApp.Views {
         private global::MovieApp.Controls.SearchBarCustom SearchBar;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::MovieApp.Controls.MovieListView movieList;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(UpComingMoviePage));
             SearchBar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MovieApp.Controls.SearchBarCustom>(this, "SearchBar");
+            movieList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MovieApp.Controls.MovieListView>(this, "movieList");
         }
     }
 }

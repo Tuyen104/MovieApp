@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StackLayout xmlns="http://xamarin.com/schemas/2014/forms" 
+<ListView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="MovieApp.Controls.MovieListView"
              xmlns:controls="clr-namespace:MovieApp.Controls"
              xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
              xmlns:behaviorsPack="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
-             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms">
-    <ListView ItemsSource="{Binding MovieList}" HasUnevenRows="true" CachingStrategy="RecycleElement">
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" 
+              HasUnevenRows="true" >
         <ListView.Behaviors>
             <extended:InfiniteScrollBehavior IsLoadingMore="{Binding IsBusy}" />
             <behaviorsPack:SelectedItemBehavior Command="{Binding SelectedItemCommand}"/>
@@ -62,4 +62,3 @@
                 </Grid>
             </ListView.Footer>
     </ListView>
-</StackLayout>

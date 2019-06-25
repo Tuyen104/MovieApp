@@ -14,7 +14,7 @@ namespace MovieApp.Controls {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Controls/MovieListView.xaml")]
-    public partial class MovieListView : global::Xamarin.Forms.StackLayout {
+    public partial class MovieListView : global::Xamarin.Forms.ListView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {

@@ -14,7 +14,7 @@ namespace MovieApp.Services
     {
         Task<ApiResponse<string>> GetPopularMovieResult(int page);
         Task<ApiResponse<string>> GetUpComingMovieResult(int page);
-        Task<ApiResponse<string>> GetMovieListResult(string keyword);
+        Task<ApiResponse<string>> GetMovieListResult(string keyword, int page);
         Task<ApiResponse<string>> GetMovieDetail(string movieId);
         bool IsNetworkConnected();
         Task<ApiResponse<T>> RequestObject<T>(Method method, Uri uri, object param = null);
@@ -62,8 +62,8 @@ namespace MovieApp.Services
         public Task<ApiResponse<string>> GetMovieDetail(string movieId)
             => RequestObject<string>(Method.Get, new Uri(_configurationService.MovieBaseUrl + MovieDetail + "/" + movieId + "?api_key=" + ApiKey + "&language=" + Language));
 
-        public Task<ApiResponse<string>> GetMovieListResult(string keyword)
-            => RequestObject<string>(Method.Get, new Uri(_configurationService.MovieBaseUrl + MovieSearch + "?api_key="+ApiKey+"&language="+Language+"&query="+keyword));
+        public Task<ApiResponse<string>> GetMovieListResult(string keyword, int page)
+            => RequestObject<string>(Method.Get, new Uri(_configurationService.MovieBaseUrl + MovieSearch + "?api_key="+ApiKey+"&language="+Language+"&query="+keyword + "&page=" + page));
 
         public Task<ApiResponse<string>> GetPopularMovieResult(int page)
             => RequestObject<string>(Method.Get, new Uri(_configurationService.MovieBaseUrl + PopularMovie + "?api_key=" + ApiKey + "&language=" + Language + "&page=" + page));

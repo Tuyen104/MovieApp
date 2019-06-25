@@ -1,7 +1,13 @@
 ﻿<Properties StartupConfiguration="{94B469CE-12DE-4271-99B5-5823E077B1F1}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/Views/PopularMoviePage.xaml.cs">
     <Files>
-      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" Line="75" Column="10" />
+      <File FileName="MovieApp/MovieApp/Controls/MovieListView.xaml.cs" Line="14" Column="35" />
+      <File FileName="MovieApp/MovieApp/Controls/MovieListView.xaml" />
+      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" Line="67" Column="1" />
+      <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml.cs" Line="29" Column="47" />
+      <File FileName="MovieApp/MovieApp/Views/PopularMoviePage.xaml" />
+      <File FileName="MovieApp/MovieApp.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="MovieApp/MovieApp/Views/UpComingMoviePage.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,16 +18,20 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Behaviors" expanded="True" />
-              <Node name="Controls" expanded="True" />
+              <Node name="Controls" expanded="True">
+                <Node name="MovieListView.xaml" expanded="True" />
+              </Node>
               <Node name="Entities" expanded="True">
                 <Node name="Server" expanded="True" />
               </Node>
               <Node name="Extensions" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="PopularMoviePageViewModelBase.cs" selected="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="PopularMoviePage.xaml" expanded="True">
+                  <Node name="PopularMoviePage.xaml.cs" selected="True" />
+                </Node>
               </Node>
-              <Node name="Views" expanded="True" />
             </Node>
             <Node name="MovieApp.Android" expanded="True">
               <Node name="Resources" expanded="True">
@@ -35,7 +45,6 @@
               </Node>
             </Node>
             <Node name="MovieApp.iOS" expanded="True">
-              <Node name="Packages" expanded="True" />
               <Node name="Renderers" expanded="True" />
               <Node name="Resources" expanded="True" />
             </Node>

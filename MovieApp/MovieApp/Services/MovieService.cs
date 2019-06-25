@@ -13,7 +13,7 @@ namespace MovieApp.Services
         List<Movie> GetMovieList(MovieList movieList);
         Task<ApiResponse<MovieList>> GetPopularMovieRequest(int page);
         Task<ApiResponse<MovieList>> GetUpComingMovieRequest(int page);
-        Task<ApiResponse<MovieList>> GetSearchMovieRequest(string keyword);
+        Task<ApiResponse<MovieList>> GetSearchMovieRequest(string keyword, int page);
         Task<ApiResponse<Movie>> GetMovieDetailRequest(string id);
         List<Movie> GetMovieSearchData(MovieList movieList, string keyword);
 
@@ -28,9 +28,9 @@ namespace MovieApp.Services
             _apiService = apiService;
         }
 
-        public async Task<ApiResponse<MovieList>> GetSearchMovieRequest(string keyword)
+        public async Task<ApiResponse<MovieList>> GetSearchMovieRequest(string keyword, int page)
         {
-            var response = await _apiService.GetMovieListResult(keyword);
+            var response = await _apiService.GetMovieListResult(keyword, page);
             if (!response.HasError())
             {
                 return new ApiResponse<MovieList>(JsonConvert.DeserializeObject<MovieList>(response.GetResult()), response.GetStatusCode(), response.GetErrorMessage());

@@ -28,7 +28,7 @@
                     <local:TextChangedBehavior />
                 </SearchBar.Behaviors>
             </controls:SearchBarCustom>
-            <controls:MovieListView Grid.Row="1"  Margin="10, 10" IsVisible="{Binding IsExistList.Value}"/>
+            <controls:MovieListView Grid.Row="1"  Margin="10, 10" IsVisible="{Binding IsExistList.Value}" ItemsSource="{Binding MovieList}" x:Name="movieList"/>
             <Label Text="No result" Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsVisible="{Binding IsExistText.Value}"/>
         </StackLayout>
     </controls:TopTabChildPage.Content>

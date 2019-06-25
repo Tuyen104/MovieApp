@@ -67,20 +67,20 @@ namespace MovieApp.ViewModels
             base.OnNavigatingTo(parameters);
         }
 
-        async Task PullData()
-        {
-            ApiResponse<MovieList> response;
-            using (UserDialogs.Instance.Loading())
-            {
-                response = await _movieService.GetSearchMovieRequest(Keyword.Value);
-            }
-            response.Check((result) =>
-            {
-                MovieList = _movieService.GetMovieList(result);
-            }, async (statusCode) =>
-            {
-                await HandleApiError(statusCode, async (errorCode) => await _dialogService.ShowDialogAsync(statusCode));
-            });
-        }
+        //async Task PullData()
+        //{
+        //    ApiResponse<MovieList> response;
+        //    using (UserDialogs.Instance.Loading())
+        //    {
+        //        response = await _movieService.GetSearchMovieRequest(Keyword.Value);
+        //    }
+        //    response.Check((result) =>
+        //    {
+        //        MovieList = _movieService.GetMovieList(result);
+        //    }, async (statusCode) =>
+        //    {
+        //        await HandleApiError(statusCode, async (errorCode) => await _dialogService.ShowDialogAsync(statusCode));
+        //    });
+        //}
     }
 }

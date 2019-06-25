@@ -9,6 +9,7 @@ using MovieApp.Services;
 using MovieApp.Views;
 using Prism.Navigation;
 using Reactive.Bindings;
+using Xamarin.Forms;
 using Xamarin.Forms.Extended;
 
 namespace MovieApp.ViewModels
@@ -55,7 +56,17 @@ namespace MovieApp.ViewModels
             SearchMovieCommand = new AsyncReactiveCommand();
             SearchMovieCommand.Subscribe(async () =>
             {
-                SearchData(Keyword.Value);
+                if (Keyword.Value.Equals("")) 
+                { 
+                    PullData();
+                    //Device.StartTimer(TimeSpan.FromSeconds(0.1), () =>
+                    //{
+                    //    MovieList.ScrollTo(items.FirstOrDefault(), 0, true);
+                    //    return false;
+                    //});
+
+                }
+                else SearchData(Keyword.Value);
             });
             SelectedItemCommand = new AsyncReactiveCommand<Movie>();
             SelectedItemCommand.Subscribe(async movie =>
@@ -80,21 +91,31 @@ namespace MovieApp.ViewModels
             base.OnNavigatingTo(parameters);
         }
         protected abstract void PullData();
-        //protected abstract void SearchData(string keyword);
-        protected async void SearchData(string keyword)
+
+        protected void SearchData(string keyword)
         {
+
             ApiResponse<MovieList> response;
-            // using (UserDialogs.Instance.Loading())
-            //{
-            response = await _movieService.GetUpComingMovieRequest();
-            //}
-            response.Check((result) =>
+
+            Task.Run(async () =>
             {
-                MovieList = _movieService.GetMovieSearchData(result, keyword);
-            }, async (statusCode) =>
-            {
-                await HandleApiError(statusCode, async (errorCode) => await _dialogService.ShowDialogAsync(statusCode));
-            });
+                MovieList = new InfiniteScrollCollection<Movie>
+                {
+                    OnLoadMore = async () =>
+                    {
+                        await Task.Delay(2000);
+                        List<Movie> movie = null;
+                        var page = MovieList.Count / pageSize + 1;
+                        response = await _movieService.GetSearchMovieRequest(keyword, page);
+                        response.Check((result) =>
+                        {
+                            movie = _movieService.GetMovieList(result);
+                        });
+                        return movie;
+                    }
+                };
+                await MovieList.LoadMoreAsync();
+            }).Wait();
         }
     }
 }
