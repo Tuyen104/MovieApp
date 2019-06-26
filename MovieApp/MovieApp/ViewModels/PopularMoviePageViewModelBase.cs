@@ -56,6 +56,7 @@ namespace MovieApp.ViewModels
             SearchMovieCommand = new AsyncReactiveCommand();
             SearchMovieCommand.Subscribe(async () =>
             {
+                MessagingCenter.Send("", "ScrollToTop");
                 if (Keyword.Value.Equals("")) 
                 { 
                     PullData();

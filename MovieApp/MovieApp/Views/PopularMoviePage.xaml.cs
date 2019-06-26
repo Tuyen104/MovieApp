@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using MovieApp.Controls;
 using MovieApp.Entities.Server;
+using MovieApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Extended;
 
@@ -14,20 +15,15 @@ namespace MovieApp.Views
         public PopularMoviePage()
         {
             InitializeComponent();
-
-            //var items = (InfiniteScrollCollection<Movie>) movieList.ItemsSource;
-            //if (string.IsNullOrWhiteSpace(searchBar.Text))
-            //{
-            //    movieList.ScrollTo(items.FirstOrDefault(), ScrollToPosition.MakeVisible, true);
-            //}
-
         }
 
-
-        protected override void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        protected override void OnAppearing()
         {
-            base.OnPropertyChanged(propertyName);
-            ScrollToFirst();
+            base.OnAppearing();
+            MessagingCenter.Subscribe<string>(
+            this, "ScrollToTop", (arg) => {
+                ScrollToFirst();
+            });
         }
 
         public void ScrollToFirst()
@@ -36,12 +32,12 @@ namespace MovieApp.Views
             {
                 try
                 {
-                    if (searchBar.Text.Equals("") && movieList.ItemsSource != null)
+                    if ( movieList.ItemsSource != null)
                     {
                         var firstItem = movieList.ItemsSource.Cast<object>().FirstOrDefault();
                         if (firstItem != null)
                         {
-                            movieList.ScrollTo(firstItem, ScrollToPosition.Start, false);
+                            movieList.ScrollTo(firstItem, ScrollToPosition.MakeVisible, true);
                         }
                     }
                 }
