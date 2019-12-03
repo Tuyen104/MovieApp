@@ -3,8 +3,11 @@ using System.Threading.Tasks;
 using Acr.UserDialogs;
 using MovieApp.Entities;
 using MovieApp.Entities.Server;
+using MovieApp.Helpers;
 using MovieApp.Services;
+using MovieApp.Views;
 using Prism.Navigation;
+using Reactive.Bindings;
 
 namespace MovieApp.ViewModels
 {
@@ -30,9 +33,22 @@ namespace MovieApp.ViewModels
 
         private MovieService _movieService;
 
+        public AsyncReactiveCommand BookTicketCommand { get; }
+
         public MovieDetailPageViewModel(INavigationService navigationService, MovieService movieService, IDialogService dialogService) : base(navigationService, dialogService)
         {
             _movieService = movieService;
+
+            BookTicketCommand = new AsyncReactiveCommand();
+            BookTicketCommand.Subscribe(async() =>
+            {
+                string verifierId = GenerateCodeHelpers.GetMovieBookingVerifier();
+                var param = new NavigationParameters
+                {
+                    {"VerifierId", verifierId}
+                };
+                await _navigationService.NavigateAsync(nameof(GenerateMovieQRCodePage), param);
+            });
         }
         public async override void OnNavigatingTo(INavigationParameters parameters)
         {

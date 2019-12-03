@@ -28,6 +28,7 @@
     <Folder Include="Controls\" />
     <Folder Include="Converters\" />
     <Folder Include="Behaviors\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ApiService.cs" />

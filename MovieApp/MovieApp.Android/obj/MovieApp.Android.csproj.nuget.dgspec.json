@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/MovieApp.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/MovieApp.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/MovieApp.Android.csproj",
+        "projectName": "MovieApp.Android",
+        "projectPath": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/MovieApp.Android.csproj",
+        "packagesPath": "/Users/tuyenlt/.nuget/packages/",
+        "outputPath": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/tuyenlt/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {
+              "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/MovieApp.csproj": {
+                "projectPath": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/MovieApp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[7.1.0.431, )"
+            },
+            "StatesButton.Forms": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.2.0.839982, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/MovieApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
+        "projectName": "MovieApp",
+        "projectPath": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
+        "packagesPath": "/Users/tuyenlt/.nuget/packages/",
+        "outputPath": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/tuyenlt/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Naxam.TopTabbedPage.Forms": {
+              "target": "Package",
+              "version": "[0.0.3.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[7.1.0.431, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "ReactiveProperty": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "StatesButton.Forms": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.7.944, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.2.0.839982, )"
+            },
+            "Xamarin.Forms.BehaviorsPack": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Xamarin.Forms.Extended.InfiniteScrolling": {
+              "target": "Package",
+              "version": "[1.0.0-preview2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

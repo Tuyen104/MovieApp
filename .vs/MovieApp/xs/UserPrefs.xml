@@ -1,27 +1,33 @@
 ﻿<Properties StartupConfiguration="{94B469CE-12DE-4271-99B5-5823E077B1F1}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/Views/GenerateMovieQRCodePage.xaml">
+    <Files>
+      <File FileName="MovieApp/MovieApp/Views/MovieDetailPage.xaml" Line="27" Column="60" />
+      <File FileName="MovieApp/MovieApp/ViewModels/MovieDetailPageViewModel.cs" Line="50" Column="31" />
+      <File FileName="MovieApp/MovieApp/App.xaml.cs" Line="38" Column="76" />
+      <File FileName="MovieApp/MovieApp/Helpers/GenerateCodeHelpers.cs" Line="8" Column="54" />
+      <File FileName="MovieApp/MovieApp/Views/GenerateMovieQRCode.xaml" Line="7" Column="22" />
+      <File FileName="MovieApp/MovieApp/ViewModels/GenerateMovieQRCodePageViewModel.cs" Line="11" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieApp" expanded="True">
             <Node name="MovieApp" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
               <Node name="Behaviors" expanded="True" />
               <Node name="Controls" expanded="True" />
               <Node name="Entities" expanded="True">
                 <Node name="Server" expanded="True" />
               </Node>
               <Node name="Extensions" expanded="True" />
+              <Node name="Helpers" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="GenerateMovieQRCodePage.xaml" expanded="True" selected="True" />
                 <Node name="PopularMoviePage.xaml" expanded="True" />
-                <Node name="UpComingMoviePage.xaml" expanded="True">
-                  <Node name="UpComingMoviePage.xaml.cs" selected="True" />
-                </Node>
+                <Node name="UpComingMoviePage.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="MovieApp.Android" expanded="True">
               <Node name="Resources" expanded="True">

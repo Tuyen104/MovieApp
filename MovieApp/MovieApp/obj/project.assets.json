@@ -305,14 +305,16 @@
   },
   "libraries": {
     "Acr.UserDialogs/7.0.4": {
-      "sha512": "wmeQhteQymYgTwDPSxfuLlWP8qkXKSCcMB0UNQi/SXl4/vvqwzsX3uP5A7kYzxsbthuFWau3Ni0ZyCL7pyb5Fw==",
+      "sha512": "J+3+rSVtAAUqvaXC0NGZ6HAcSXMaMyqvKsV1sMoraT7g+Zv/r4QmgUUITPu875n0uO57Y87Xn6IbLVDPje6tlw==",
       "type": "package",
       "path": "acr.userdialogs/7.0.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "acr.userdialogs.7.0.4.nupkg.sha512",
         "acr.userdialogs.nuspec",
         "lib/monoandroid81/Acr.UserDialogs.dll",
+        "lib/monoandroid81/Acr.UserDialogs.dll.mdb",
         "lib/monoandroid81/Acr.UserDialogs.pdb",
         "lib/monoandroid90/Acr.UserDialogs.dll",
         "lib/monoandroid90/Acr.UserDialogs.pdb",
@@ -332,7 +334,7 @@
       ]
     },
     "DryIoc.dll/3.0.2": {
-      "sha512": "9R8iJjsJhjHwKj98aDadcmsiGVEoxoYx5jcOumaVfwK672bMprYVLJqwDlv3Sgb+meQ7WHTYaIf/Nxq9llnUwg==",
+      "sha512": "JEAIt/4SmRTWXqcLJUyX31NyjNZTeveb35B/N7Qo2HRBn5ixQm3hzN9TXQu/vTSUv0MwnOiQaXjlwyqTBN7CZQ==",
       "type": "package",
       "path": "dryioc.dll/3.0.2",
       "files": [
@@ -364,10 +366,11 @@
       ]
     },
     "Fody/5.0.6": {
-      "sha512": "qLd3en9BgfKidsmXI9vxPttAR3pBcGO3n6vARrKloQ6My/uCskx2QhTKs9t1OYwQx3GN6ymqlnntuwR4tzTgIw==",
+      "sha512": "BO5/h7Xnee91hNzt+oAuNvQiMdf/eTgYuiNP0SokcwjaD2MUrW6d5BjWqH2ukwzJDfbyo1Q8UJBbwlC/Ax2GaA==",
       "type": "package",
       "path": "fody/5.0.6",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/Fody.targets",
         "fody.5.0.6.nupkg.sha512",
@@ -395,7 +398,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -410,7 +413,7 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "HvAzpoaIqrmZfsHAN4rLFji0r7YY5TP8r3SdkziXN7qU9KCpRIG+zfcBx+mIri/jkBNqjq4iWIfuYNtFBjSQ/g==",
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
@@ -425,10 +428,11 @@
       ]
     },
     "Naxam.TopTabbedPage.Forms/0.0.3.3": {
-      "sha512": "EL9DUyM6G0aDO5yOO29b3nxdEvB9H6BtcX6N3tLl93it5P1XjitUwliX3KOyJUK2mCaa4PCOiZsZsJsTOgmpHg==",
+      "sha512": "+AS+6oO4MM506vOr5b4FpIKTuIYiVen34ZvEsH5cJHw0LJ5B+HyGwxh/WBfSXCVuHvxuBRaDepX5sT3WeYnp2A==",
       "type": "package",
       "path": "naxam.toptabbedpage.forms/0.0.3.3",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Forms.dll",
         "lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll",
@@ -566,10 +570,11 @@
       ]
     },
     "Newtonsoft.Json/12.0.2": {
-      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
       "path": "newtonsoft.json/12.0.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -595,10 +600,11 @@
       ]
     },
     "Prism.Core/7.1.0.431": {
-      "sha512": "tBkEf4cDYn2oQfW1wPem4jJK/H1Z4mJsnndO04n2oZyIql7Bj3OVlpfQ6vbPgbtlkEN0oyn02XVurZba3DYqmQ==",
+      "sha512": "l4sBztXr1d2aJ1Ub5OKcd8dkf18UV7k+DWRbi0uen8y0pqb0tH+OC1/B35ZvaxMNlCtl1VZYbeq6wypdcrt92A==",
       "type": "package",
       "path": "prism.core/7.1.0.431",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Prism.dll",
         "lib/net45/Prism.pdb",
@@ -623,7 +629,7 @@
       ]
     },
     "Prism.DryIoc.Forms/7.1.0.431": {
-      "sha512": "NSl5T0XIYJ35MceKd7rKEwyDel5pAKU3RY/++eGWQG44hWaacJmzI2WMJqYdbqYrBNiUZlhaBVKW1KlwTMSNGA==",
+      "sha512": "NnDiRCpzHTgHSg6xuQ1dY30DH+f2kssVnDcZv9GJxKWe+ldBokSfxoEMp26tRb474RSQ40z/6oaR3Sf1b5TEig==",
       "type": "package",
       "path": "prism.dryioc.forms/7.1.0.431",
       "files": [
@@ -643,10 +649,11 @@
       ]
     },
     "Prism.Forms/7.1.0.431": {
-      "sha512": "sbwu3Ao4yUPVQ4gln1EA5N9vOj/NkaOEYNoCvuY5BOGlkTQod5gPnGJST2ZFsj1gHLJHSdvlT5OP+RKEeqo7pQ==",
+      "sha512": "L9CQS9PKFXSjpYEdDQeucmzF7kOH5af+dgVBgv5+zId6Rjyzk4OMyzG0BH05zQiWCsbx3qnXJG7Mc8Q4qeMlEQ==",
       "type": "package",
       "path": "prism.forms/7.1.0.431",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard1.0/Prism.Forms.dll",
         "lib/netstandard1.0/Prism.Forms.pdb",
@@ -659,10 +666,11 @@
       ]
     },
     "PropertyChanged.Fody/3.0.1": {
-      "sha512": "+6G+qCU3evuF3QEwn000cSFgxFPB7WwYiNJFKHFzfjSRCZPszDkoPyXvDISgFh7+l4QB3fNqr2kq76W/owdICw==",
+      "sha512": "k6ds4qRFDzQ7uHTMG2Xq/veHpO7fSPobsulsi2CuWPAX3XWsseCUPh2TaDb4f1YN6gld+UGCaSBjpFc1jpljwA==",
       "type": "package",
       "path": "propertychanged.fody/3.0.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/PropertyChanged.Fody.props",
         "lib/net452/PropertyChanged.dll",
@@ -676,10 +684,11 @@
       ]
     },
     "ReactiveProperty/5.5.1": {
-      "sha512": "BTayCYknhBWNjqYq99z8c1OEj20jkej51ymNvmSmRA8DCvvdCKjOvVnqRlfq3U4aFDJI8YiureTjbwfX6/cc3Q==",
+      "sha512": "dcrrG/5u1BidDks3KENj77JZx0igB8WcXAH58d+6izEd25s/6kWBTl82mNTQmVHOs1dBPCIfjaHpM2EokmjBMQ==",
       "type": "package",
       "path": "reactiveproperty/5.5.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "Snippet/csharp5/AsyncReactiveCommand.snippet",
@@ -699,6 +708,7 @@
         "Snippet/csharp6/ReadOnlyReactiveCollection.snippet",
         "Snippet/csharp6/ReadOnlyReactiveProperty.snippet",
         "lib/MonoAndroid/ReactiveProperty.Android.dll",
+        "lib/MonoAndroid/ReactiveProperty.Android.dll.mdb",
         "lib/MonoAndroid/ReactiveProperty.Android.pdb",
         "lib/MonoAndroid/ReactiveProperty.Android.xml",
         "lib/MonoAndroid/ReactiveProperty.dll",
@@ -736,10 +746,11 @@
       ]
     },
     "StatesButton.Forms/2.0.0": {
-      "sha512": "L6Y69YjeQExN7aHvBgyHP2pBSkBmhtc7tqjmzMGhII2JHLWkekWMLuZC0mr+K/TcXux1t9aM+xR+BJgY2ZxBUQ==",
+      "sha512": "h8HMgepZnD2G732eBzoLV50DzxarndYpIEG/cvDbPxzLAIBzSyBymmpgdoRkyWKwGh0aVtzHY3w6rlxycZOtPQ==",
       "type": "package",
       "path": "statesbutton.forms/2.0.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/StatesButton.Android.dll",
         "lib/MonoAndroid10/StatesButton.Forms.dll",
@@ -752,7 +763,7 @@
       ]
     },
     "System.ComponentModel.Annotations/4.5.0": {
-      "sha512": "f1ApUHGWq/lJC8PZE7JqbA3tiY7ZngZQO2mbYfCG0JlQVVUqqmVMAy0fMvAwEuG639M47ELdP6PQxc5OIo6i6A==",
+      "sha512": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
       "type": "package",
       "path": "system.componentmodel.annotations/4.5.0",
       "files": [
@@ -841,10 +852,11 @@
       ]
     },
     "System.Reactive/4.1.5": {
-      "sha512": "tUaP/K08UD983YSlfXnDZ4w9Mq9I4sFZBYfh/AEUW3gSC4qxl7Ft3ORQZ1PqNsTb6qY2Ix8x3Tt/qNpQ/YG0tA==",
+      "sha512": "guil0zF8UboWgGaAxgD5LxL8ZGamrkSo/HLsROaUCAUlSrnBhz0McOGwY1CcnP00pvwt6q40EMs3ErhCOXsqfw==",
       "type": "package",
       "path": "system.reactive/4.1.5",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net46/System.Reactive.dll",
         "lib/net46/System.Reactive.xml",
@@ -861,10 +873,11 @@
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "kqsiSfCAc8+v3Ez719s21lGthxuNi6lhAGmCGH3jdL9KMK+T8V9zsFrzQ/enDL1ISwTWRlcFh2Nq5yFx6wcU+w==",
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -952,10 +965,11 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-      "sha512": "hMkdWxksypQlFXB7JamQegDscxEAQO4FHd/lw/zlSZU9dZgAij65xjCrXer183wvoNAzJic5zzjj2oc9/dloWg==",
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -976,10 +990,11 @@
       ]
     },
     "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
-      "sha512": "BB4Y4G5QH6jPlnI4l8gpD0QxbaUFUUz5478TB2fxLB4pgZbJSKDLQfDaReCbopPPJB5LkwskLo86mXBq2KzpHg==",
+      "sha512": "J4GUi3xZQLUBasNwZnjrffN8i5wpHrBtZoLG+OhRyGo/+YunMRWWtwoMDlUAIdmX0uRfpHIBDSV6zyr3yf00TA==",
       "type": "package",
       "path": "system.runtime.interopservices.windowsruntime/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1036,10 +1051,11 @@
       ]
     },
     "System.Threading.Tasks.Extensions/4.5.2": {
-      "sha512": "5HCu8V3QB+gouMZmGrA666weZ0UQRt+OTD16rSE3Hyhu4Qhlvxkf4nTPI0GLy52s0rxgi7C8t2ayFAzw7UK1og==",
+      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
       "type": "package",
       "path": "system.threading.tasks.extensions/4.5.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -1070,10 +1086,11 @@
       ]
     },
     "Xam.Plugin.Connectivity/3.2.0": {
-      "sha512": "V0IKUjLnWO4zl1VI/7Keclez5kk21PIpVUqacbMtbl1Ky7PrUNUOrO8Xmfrxn5E38ihzrmgGpuC6TXCwL3Sl+Q==",
+      "sha512": "ZV45TaBTCJg7XQNEl3fPyyJcuMMhdDEQ6BCLc/5pMuTv38M226ER0WTu5sbmba8jlliDuzeRqkRFHwrGdWAgyg==",
       "type": "package",
       "path": "xam.plugin.connectivity/3.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
@@ -1137,10 +1154,11 @@
       ]
     },
     "Xamarin.FFImageLoading/2.4.7.944": {
-      "sha512": "a/9FSWhYIwuvwQxY/3BCuJ8qkVBc0tfL0YbJTt5S3Kvo93eZCPx8ESC9aBHge5XNtWqfX4kMesMjfxUGIwQEnw==",
+      "sha512": "LjbNpUoZLDbJ8iREmgj87O9nLyOVa2fmS8dBh+Fyobj0yqgqc2T9dYMUGlpCnB5I0HXN2X4Ax3gOpg9yy4Ugqw==",
       "type": "package",
       "path": "xamarin.ffimageloading/2.4.7.944",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/FFImageLoading.Platform.dll",
         "lib/MonoAndroid10/FFImageLoading.Platform.pdb",
@@ -1199,10 +1217,11 @@
       ]
     },
     "Xamarin.FFImageLoading.Forms/2.4.7.944": {
-      "sha512": "oULAqbDxHnbmykJgvAtAp16WvBINqYFsNXuJTMc/gSJF2ER0wr3hmflHTSpzvd61x6ttYzn8qgTvEqw8nOv2Fg==",
+      "sha512": "l9A+NSLAwCiWihqzq9OLDlYKNbu10UekQ6IAMQo742kczti4JNw6EeEC8RvBa+1gikJRe1S0dRNj1Om4F6LL+Q==",
       "type": "package",
       "path": "xamarin.ffimageloading.forms/2.4.7.944",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/FFImageLoading.Forms.Platform.dll",
         "lib/MonoAndroid10/FFImageLoading.Forms.Platform.pdb",
@@ -1245,10 +1264,11 @@
       ]
     },
     "Xamarin.Forms/3.2.0.839982": {
-      "sha512": "P3+8hKE6Q0HXg/TSsDxiLZgpAL/63xsd39kPwxjacZtK4x2T28V3xxGsK3hpJMPs2Bv7H/+6eiHnfwDi2vCAyg==",
+      "sha512": "r2qGQiZrNVjvyNlfi39C7rmPnMrmz+O1A2FkJ3SR0Ac5ZXTfAOB6KpAtITOV7bRmJlEUAltFXPh6snO0VFdz+g==",
       "type": "package",
       "path": "xamarin.forms/3.2.0.839982",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
@@ -1277,11 +1297,13 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -1394,10 +1416,11 @@
       ]
     },
     "Xamarin.Forms.BehaviorsPack/2.0.0": {
-      "sha512": "y10QSVriQtrknkW6xkxmotXLS7xvgdk5WnwGt9fx0/Zd6aq3qggScrlGLTPKcGFUC8+aQJ+9JkMBurGdNORBhw==",
+      "sha512": "UWXg9OF+6dMRv9VVK0L/9h+F9/mubaOTBa8vmUQu4Yu3y5ia3klXVoOAAV+O8rmsVLIfFTJcxTo4vrI4963anQ==",
       "type": "package",
       "path": "xamarin.forms.behaviorspack/2.0.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Xamarin.Forms.BehaviorsPack.dll",
         "xamarin.forms.behaviorspack.2.0.0.nupkg.sha512",
@@ -1405,10 +1428,11 @@
       ]
     },
     "Xamarin.Forms.Extended.InfiniteScrolling/1.0.0-preview2": {
-      "sha512": "08cbuo2izAnGaM4o1XVOoEoICmPj6m6jDFq6NAvc8f4jEaXiZHaUMSKkSz5uuKVJoZWJLHUl+vAo7JjAcO6cLg==",
+      "sha512": "q3MleY9BqDnVKUiXSvYETV++mg70CVXt7h2jqd3etdq5HHrRTYJdjZUdAEBYg5OozfABV7m5QtISU1XheV83XQ==",
       "type": "package",
       "path": "xamarin.forms.extended.infinitescrolling/1.0.0-preview2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll",
         "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.xml",
@@ -1442,11 +1466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
+      "projectUniqueName": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
       "projectName": "MovieApp",
-      "projectPath": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
+      "projectPath": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/MovieApp.csproj",
       "packagesPath": "/Users/tuyenlt/.nuget/packages/",
-      "outputPath": "/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp/obj/",
+      "outputPath": "/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

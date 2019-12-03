@@ -32,6 +32,11 @@ extern "C" void xamarin_create_classes_Xamarin_iOS();
 void xamarin_setup_impl ()
 {
 	xamarin_create_classes_Xamarin_iOS();
+
+	mono_dllmap_insert (NULL, "System.Native", NULL, "__Internal", NULL);
+	mono_dllmap_insert (NULL, "System.Security.Cryptography.Native.Apple", NULL, "__Internal", NULL);
+	mono_dllmap_insert (NULL, "System.Net.Security.Native", NULL, "__Internal", NULL);
+
 	xamarin_gc_pump = FALSE;
 	xamarin_init_mono_debug = TRUE;
 	xamarin_executable_name = "MovieApp.iOS.exe";

@@ -8,6 +8,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <ffimageloading:CachedImage 
@@ -21,8 +22,11 @@
                             VerticalOptions="CenterAndExpand" Source="{Binding Movie.PosterImgUrl}"
                             WidthRequest="190" HeightRequest="350">
                 </ffimageloading:CachedImage>
+                <Button BackgroundColor="red" Grid.Row="1" Text="Book ticket" TextColor="white" VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="CenterAndExpand" WidthRequest="250" HeightRequest="30"
+                        Command="{Binding BookTicketCommand}"/>
                 <!--<Image Grid.Row="0" HorizontalOptions="CenterAndExpand" WidthRequest="170" HeightRequest="350" VerticalOptions="CenterAndExpand" Source="{Binding Movie.PosterImgUrl}"/>-->
-                <StackLayout Grid.Row="1" Margin="0, 30, 0, 15">
+                <StackLayout Grid.Row="2" Margin="0, 30, 0, 15">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
@@ -54,7 +58,7 @@
                         </StackLayout>
                     </Grid>
                 </StackLayout>
-                <StackLayout Grid.Row="2">
+                <StackLayout Grid.Row="3">
                     <BoxView  BackgroundColor="Gray" HeightRequest="1"/>
                     <Label Text="Overview" HorizontalOptions="Start" Style="{x:StaticResource BigNormalText}" Margin="0, 20"/>
                     <Label Text="{Binding Movie.Overview}" 

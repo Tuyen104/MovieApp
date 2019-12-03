@@ -35,6 +35,7 @@ namespace MovieApp
             containerRegistry.RegisterForNavigation<PopularMoviePage>();
             containerRegistry.RegisterForNavigation<UpComingMoviePage>();
             containerRegistry.RegisterForNavigation<MovieDetailPage>();
+            containerRegistry.RegisterForNavigation<GenerateMovieQRCodePage>();
 
             //register services
             containerRegistry.RegisterSingleton<IApiService, ApiService>();
