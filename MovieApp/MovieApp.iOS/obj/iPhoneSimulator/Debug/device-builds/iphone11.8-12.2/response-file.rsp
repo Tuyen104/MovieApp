@@ -224,6 +224,11 @@
 -r=/Users/tuyenlt/.nuget/packages/xamarin.forms/3.2.0.839982/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/tuyenlt/.nuget/packages/xamarin.forms.behaviorspack/2.0.0/lib/netstandard2.0/Xamarin.Forms.BehaviorsPack.dll
 -r=/Users/tuyenlt/.nuget/packages/xamarin.forms.extended.infinitescrolling/1.0.0-preview2/lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll
+-r=/Users/tuyenlt/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll
+-r=/Users/tuyenlt/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/ZXingNetMobile.dll
+-r=/Users/tuyenlt/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/zxing.portable.dll
+-r=/Users/tuyenlt/.nuget/packages/zxing.net.mobile.forms/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll
+-r=/Users/tuyenlt/.nuget/packages/zxing.net.mobile.forms/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll
 -r=/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp/bin/Debug/netstandard2.0/MovieApp.dll
  --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/MovieApp.iOS.exe

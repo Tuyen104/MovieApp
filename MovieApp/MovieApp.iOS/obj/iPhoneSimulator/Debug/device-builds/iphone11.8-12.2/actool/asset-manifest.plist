@@ -18,7 +18,7 @@
 				<string>./AppIcon.appiconset/[][iphone][76x76][][][1x][][][2d][Icon-App-76x76@1x.png]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The app icon set "AppIcon" has 4 unassigned children.</string>
 			<key>type</key>

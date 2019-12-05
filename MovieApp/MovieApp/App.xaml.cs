@@ -5,6 +5,7 @@ using MovieApp.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MovieApp.Services;
+using MovieApp.Helpers;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace MovieApp
@@ -42,6 +43,7 @@ namespace MovieApp
             containerRegistry.RegisterSingleton<IConfigurationService, ConfigurationService>();
             containerRegistry.RegisterSingleton<IMovieService, MovieService>();
             containerRegistry.RegisterSingleton<IDialogService, DialogService>();
+            containerRegistry.RegisterSingleton<IGenerateCodeHelpers, GenerateCodeHelpers>();
         }
     }
 }

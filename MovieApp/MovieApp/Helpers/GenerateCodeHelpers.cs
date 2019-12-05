@@ -3,17 +3,21 @@ using System.Security.Cryptography;
 
 namespace MovieApp.Helpers
 {
-    public class GenerateCodeHelpers 
+    public interface IGenerateCodeHelpers
     {
-        public static string GetMovieBookingVerifier()
+        string SetMovieBookingVerifier();
+    }
+    public class GenerateCodeHelpers : IGenerateCodeHelpers
+    {
+        public string SetMovieBookingVerifier()
         {
             var buffer = new byte[32];
             new RNGCryptoServiceProvider().GetBytes(buffer);
-            var verifier = Convert.ToBase64String(buffer)
+             var MovieQRCode = Convert.ToBase64String(buffer)
                                   .Replace('+', '-')
                                   .Replace('/', '_')
                                   .Replace("=", "");
-            return verifier;
+            return MovieQRCode;
         }
     }
 }

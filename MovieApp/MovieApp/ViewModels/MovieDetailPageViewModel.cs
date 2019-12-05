@@ -34,15 +34,17 @@ namespace MovieApp.ViewModels
         private MovieService _movieService;
 
         public AsyncReactiveCommand BookTicketCommand { get; }
+        private IGenerateCodeHelpers _generateCode;
 
-        public MovieDetailPageViewModel(INavigationService navigationService, MovieService movieService, IDialogService dialogService) : base(navigationService, dialogService)
+        public MovieDetailPageViewModel(INavigationService navigationService, MovieService movieService, IDialogService dialogService, IGenerateCodeHelpers generateCode) : base(navigationService, dialogService)
         {
             _movieService = movieService;
+            _generateCode = generateCode;
 
             BookTicketCommand = new AsyncReactiveCommand();
             BookTicketCommand.Subscribe(async() =>
             {
-                string verifierId = GenerateCodeHelpers.GetMovieBookingVerifier();
+                string verifierId = _generateCode.SetMovieBookingVerifier();
                 var param = new NavigationParameters
                 {
                     {"VerifierId", verifierId}

@@ -2,8 +2,31 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="MovieApp.Views.GenerateMovieQRCode">
+    x:Class="MovieApp.Views.GenerateMovieQRCodePage"
+    xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+    xmlns:zxcm="clr-namespace:ZXing.Common;assembly=zxing.portable"
+    Title="QR ticket">
     <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
         
+            <StackLayout Grid.Row="0">
+                <Entry x:Name="EntryTicketQRCode" Text="{Binding TicketQRCode}" IsVisible="false"/>
+                <Frame OutlineColor="yellow" Margin="20,10">
+                <zxing:ZXingBarcodeImageView WidthRequest="300" HeightRequest="300" BindingContext="{x:Reference Name=EntryTicketQRCode}" BarcodeValue="{Binding Path=Text}" BarcodeFormat="QR_CODE">
+                    <zxing:ZXingBarcodeImageView.BarcodeOptions>
+                        <zxcm:EncodingOptions Width="300" Height="300" />
+                    </zxing:ZXingBarcodeImageView.BarcodeOptions>
+                </zxing:ZXingBarcodeImageView>
+                </Frame>
+            </StackLayout>
+            <StackLayout Grid.Row="1" Margin="0, 30" HorizontalOptions="CenterAndExpand">
+                <Label Text="Please save this QR code to confirm the ticket"></Label>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

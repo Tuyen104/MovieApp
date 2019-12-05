@@ -33,6 +33,7 @@ resources;/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/o
 resources;/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/1/jl/res/values/strings.xml
 resources;/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/17/jl/res/values/strings.xml
 resources;/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/19/jl/res/values/strings.xml
+resources;/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/56/jl/res/values/strings.xml
 resources;/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/1/jl/res/values/attrs.xml
 resources;/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/1/jl/res/values/strings.xml
 resources;/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/17/jl/res/values/strings.xml
@@ -47,6 +48,7 @@ solid;obj/Debug/res/mipmap/framerenderervalue.xml
 string;/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/1/jl/res/values/strings.xml
 string;/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/17/jl/res/values/strings.xml
 string;/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/19/jl/res/values/strings.xml
+string;/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/56/jl/res/values/strings.xml
 string;/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/1/jl/res/values/strings.xml
 string;/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/17/jl/res/values/strings.xml
 string;/Users/tuyenlt/Documents/Practice/MovieApp/MovieApp/MovieApp.Android/obj/Debug/lp/19/jl/res/values/strings.xml

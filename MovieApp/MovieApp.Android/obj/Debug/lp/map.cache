@@ -53,3 +53,5 @@ System.ComponentModel.Annotations
 System.Threading.Tasks.Extensions
 System.Runtime.InteropServices.WindowsRuntime
 System.Resources.ResourceManager
+FastAndroidCamera
+ZXing.Net.Mobile.Forms.Android

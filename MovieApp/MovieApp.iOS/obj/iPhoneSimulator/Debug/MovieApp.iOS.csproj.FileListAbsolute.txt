@@ -478,3 +478,8 @@
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.csproj.CopyComplete
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.exe
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.pdb
+/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Core.dll
+/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/ZXingNetMobile.dll
+/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/zxing.portable.dll
+/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.dll
+/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.iOS.dll

@@ -71,6 +71,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[3.2.0.839982, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           }
         }
@@ -168,6 +172,10 @@
             "Xamarin.Forms.Extended.InfiniteScrolling": {
               "target": "Package",
               "version": "[1.0.0-preview2, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
