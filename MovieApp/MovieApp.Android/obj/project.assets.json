@@ -36,15 +36,6 @@
           "lib/netstandard2.0/DryIoc.dll": {}
         }
       },
-      "FastAndroidCamera/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/MonoAndroid403/FastAndroidCamera.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid403/FastAndroidCamera.dll": {}
-        }
-      },
       "Fody/5.0.6": {
         "type": "package",
         "build": {
@@ -599,21 +590,6 @@
           "lib/netstandard1.0/Xamarin.Forms.Extended.InfiniteScrolling.dll": {}
         }
       },
-      "ZXing.Net.Mobile.Forms/2.4.1": {
-        "type": "package",
-        "dependencies": {
-          "FastAndroidCamera": "2.0.0",
-          "Xamarin.Android.Support.v4": "25.4.0.2"
-        },
-        "compile": {
-          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll": {},
-          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll": {},
-          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll": {}
-        }
-      },
       "MovieApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -630,8 +606,7 @@
           "Xamarin.FFImageLoading.Forms": "2.4.7.944",
           "Xamarin.Forms": "3.2.0.839982",
           "Xamarin.Forms.BehaviorsPack": "2.0.0",
-          "Xamarin.Forms.Extended.InfiniteScrolling": "1.0.0-preview2",
-          "ZXing.Net.Mobile.Forms": "2.4.1"
+          "Xamarin.Forms.Extended.InfiniteScrolling": "1.0.0-preview2"
         },
         "compile": {
           "bin/placeholder/MovieApp.dll": {}
@@ -714,22 +689,6 @@
         "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/DryIoc.dll",
         "lib/xamarinmac20/DryIoc.XML",
         "lib/xamarinmac20/DryIoc.dll"
-      ]
-    },
-    "FastAndroidCamera/2.0.0": {
-      "sha512": "RQix6VHmVyQXVdP3Y4+Khw1F7HirONNCa5ubGng58gUkmSAhlS4t1Qf1Biyfakx/LjCYJ3SZ99rWSjQgV15uVQ==",
-      "type": "package",
-      "path": "fastandroidcamera/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fastandroidcamera.2.0.0.nupkg.sha512",
-        "fastandroidcamera.nuspec",
-        "lib/MonoAndroid403/FastAndroidCamera.dll",
-        "lib/MonoAndroid403/FastAndroidCamera.xml",
-        "src/CameraExtensions.cs",
-        "src/FastJavaByteArray.cs",
-        "src/FastJavaByteArrayEnumerator.cs"
       ]
     },
     "Fody/5.0.6": {
@@ -1806,25 +1765,6 @@
         "xamarin.forms.extended.infinitescrolling.nuspec"
       ]
     },
-    "ZXing.Net.Mobile.Forms/2.4.1": {
-      "sha512": "7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
-      "type": "package",
-      "path": "zxing.net.mobile.forms/2.4.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll",
-        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll",
-        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll",
-        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.pri",
-        "lib/UAP10/ZXing.Net.Mobile.Forms.dll",
-        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll",
-        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll",
-        "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll",
-        "zxing.net.mobile.forms.2.4.1.nupkg.sha512",
-        "zxing.net.mobile.forms.nuspec"
-      ]
-    },
     "MovieApp/1.0.0": {
       "type": "project",
       "path": "../MovieApp/MovieApp.csproj",
@@ -1842,8 +1782,7 @@
       "Xamarin.Android.Support.v7.CardView >= 27.0.2.1",
       "Xamarin.Android.Support.v7.MediaRouter >= 27.0.2.1",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
-      "Xamarin.Forms >= 3.2.0.839982",
-      "ZXing.Net.Mobile.Forms >= 2.4.1"
+      "Xamarin.Forms >= 3.2.0.839982"
     ]
   },
   "packageFolders": {
@@ -1916,10 +1855,6 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.2.0.839982, )"
-          },
-          "ZXing.Net.Mobile.Forms": {
-            "target": "Package",
-            "version": "[2.4.1, )"
           }
         }
       }

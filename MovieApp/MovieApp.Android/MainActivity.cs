@@ -19,7 +19,6 @@ namespace MovieApp.Droid
             UserDialogs.Init(this);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
-            ZXing.Net.Mobile.Forms.Android.Platform.Init();
 
             LoadApplication(new App(new AndroidInitializer()));
         }

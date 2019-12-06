@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{94B469CE-12DE-4271-99B5-5823E077B1F1}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/App.xaml.cs">
+﻿<Properties StartupConfiguration="{4156DBCE-543A-4616-9E40-BEF3E81FD9D7}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/ViewModels/GenerateMovieQRCodePageViewModel.cs">
     <Files>
       <File FileName="MovieApp/MovieApp/Views/MovieDetailPage.xaml" Line="29" Column="26" />
-      <File FileName="MovieApp/MovieApp/ViewModels/MovieDetailPageViewModel.cs" Line="50" Column="33" />
-      <File FileName="MovieApp/MovieApp/App.xaml.cs" Line="38" Column="76" />
-      <File FileName="MovieApp/MovieApp/Helpers/GenerateCodeHelpers.cs" Line="10" Column="60" />
-      <File FileName="MovieApp/MovieApp/Views/GenerateMovieQRCodePage.xaml" Line="27" Column="89" />
-      <File FileName="MovieApp/MovieApp/ViewModels/GenerateMovieQRCodePageViewModel.cs" Line="1" Column="14" />
-      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" Line="1" Column="1" />
+      <File FileName="MovieApp/MovieApp/ViewModels/MovieDetailPageViewModel.cs" />
+      <File FileName="MovieApp/MovieApp/App.xaml.cs" />
+      <File FileName="MovieApp/MovieApp/Helpers/GenerateCodeHelpers.cs" />
+      <File FileName="MovieApp/MovieApp/Views/GenerateMovieQRCodePage.xaml" />
+      <File FileName="MovieApp/MovieApp/ViewModels/GenerateMovieQRCodePageViewModel.cs" Line="32" Column="72" />
+      <File FileName="MovieApp/MovieApp/ViewModels/PopularMoviePageViewModelBase.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,16 +25,16 @@
               <Node name="Extensions" expanded="True" />
               <Node name="Helpers" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="GenerateMovieQRCodePageViewModel.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="GenerateMovieQRCodePage.xaml" expanded="True" />
                 <Node name="MovieDetailPage.xaml" expanded="True" />
                 <Node name="PopularMoviePage.xaml" expanded="True" />
                 <Node name="UpComingMoviePage.xaml" expanded="True" />
               </Node>
-              <Node name="App.xaml" expanded="True">
-                <Node name="App.xaml.cs" selected="True" />
-              </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="MovieApp.Android" expanded="True">
               <Node name="Packages" expanded="True" />
@@ -52,8 +52,6 @@
             </Node>
             <Node name="MovieApp.iOS" expanded="True">
               <Node name="Packages" expanded="True" />
-              <Node name="Renderers" expanded="True" />
-              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -62,7 +60,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MovieApp.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
