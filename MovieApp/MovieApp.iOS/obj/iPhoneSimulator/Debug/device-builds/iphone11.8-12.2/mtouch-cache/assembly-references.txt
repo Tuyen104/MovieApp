@@ -68,7 +68,7 @@
 /Users/tuyenlt/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/zxing.portable.dll
 /Users/tuyenlt/.nuget/packages/zxing.net.mobile.forms/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll
 /Users/tuyenlt/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll
-/Users/tuyenlt/.nuget/packages/zxing.net.mobile.forms/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll
-/Users/tuyenlt/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/ZXingNetMobile.dll
 /Users/tuyenlt/.nuget/packages/naxam.toptabbedpage.forms/0.0.3.3/lib/Xamarin.iOS10/Naxam.TopTabbedPage.Platform.iOS.dll
 /Users/tuyenlt/.nuget/packages/materialcontrols/1.2.2/lib/Xamarin.iOS10/MaterialControls.dll
+/Users/tuyenlt/.nuget/packages/zxing.net.mobile.forms/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll
+/Users/tuyenlt/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/ZXingNetMobile.dll

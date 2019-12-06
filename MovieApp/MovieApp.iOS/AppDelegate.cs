@@ -27,6 +27,7 @@ namespace MovieApp.iOS
             
             LoadApplication(new App(new iOSInitializer()));
             TopTabbedRenderer.Init();
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
 
             return base.FinishedLaunching(app, options);
         }
