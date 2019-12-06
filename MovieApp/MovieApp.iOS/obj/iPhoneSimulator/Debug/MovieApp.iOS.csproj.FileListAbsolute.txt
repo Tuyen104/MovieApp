@@ -464,11 +464,6 @@
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/actool/_BundleResourceWithLogicalName.items
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/coremlc/_PartialAppManifest.items
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/coremlc/_BundleResourceWithLogicalName.items
-/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/Default-568h@2x.png
-/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/Default-Portrait.png
-/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/Default-Portrait@2x.png
-/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/Default.png
-/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/Default@2x.png
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/error.png
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/loading.png
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/
@@ -483,3 +478,4 @@
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/zxing.portable.dll
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.dll
 /Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.iOS.dll
+/Users/tuyenlt/Documents/MovieApp/MovieApp/MovieApp/MovieApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/ic_launcher.png
