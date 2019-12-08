@@ -25,10 +25,6 @@ void xamarin_register_assemblies_impl ()
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("ZXingNetMobile.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
-	xamarin_open_and_register ("Naxam.TopTabbedPage.Platform.iOS.dll", &exception_gchandle);
-	xamarin_process_managed_exception_gchandle (exception_gchandle);
-	xamarin_open_and_register ("MaterialControls.dll", &exception_gchandle);
-	xamarin_process_managed_exception_gchandle (exception_gchandle);
 
 }
 
@@ -36,11 +32,6 @@ extern "C" void xamarin_create_classes_Xamarin_iOS();
 void xamarin_setup_impl ()
 {
 	xamarin_create_classes_Xamarin_iOS();
-
-	mono_dllmap_insert (NULL, "System.Native", NULL, "__Internal", NULL);
-	mono_dllmap_insert (NULL, "System.Security.Cryptography.Native.Apple", NULL, "__Internal", NULL);
-	mono_dllmap_insert (NULL, "System.Net.Security.Native", NULL, "__Internal", NULL);
-
 	xamarin_gc_pump = FALSE;
 	xamarin_init_mono_debug = TRUE;
 	xamarin_executable_name = "MovieApp.iOS.exe";

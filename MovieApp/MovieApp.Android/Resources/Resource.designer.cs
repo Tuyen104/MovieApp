@@ -3680,7 +3680,12 @@ namespace MovieApp.Droid
 			global::StatesButton.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MovieApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::StatesButton.Android.Resource.Styleable.ViewStubCompat_android_layout = global::MovieApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::MovieApp.Droid.Resource.Attribute.actionBarSize;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::MovieApp.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::MovieApp.Droid.Resource.Layout.zxingscannerfragmentlayout;
 			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::MovieApp.Droid.Resource.String.library_name;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::MovieApp.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::MovieApp.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::MovieApp.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -6864,6 +6869,9 @@ namespace MovieApp.Droid
 			// aapt resource value: 0x7f0a008d
 			public const int container = 2131361933;
 			
+			// aapt resource value: 0x7f0a00cd
+			public const int contentFrame = 2131361997;
+			
 			// aapt resource value: 0x7f0a0066
 			public const int contentPanel = 2131361894;
 			
@@ -6996,8 +7004,8 @@ namespace MovieApp.Droid
 			// aapt resource value: 0x7f0a009c
 			public const int loadingProgressWheel = 2131361948;
 			
-			// aapt resource value: 0x7f0a00ce
-			public const int masked = 2131361998;
+			// aapt resource value: 0x7f0a00cf
+			public const int masked = 2131361999;
 			
 			// aapt resource value: 0x7f0a00bd
 			public const int media_actions = 2131361981;
@@ -7335,8 +7343,8 @@ namespace MovieApp.Droid
 			// aapt resource value: 0x7f0a0016
 			public const int view_offset_helper = 2131361814;
 			
-			// aapt resource value: 0x7f0a00cd
-			public const int visible = 2131361997;
+			// aapt resource value: 0x7f0a00ce
+			public const int visible = 2131361998;
 			
 			// aapt resource value: 0x7f0a00af
 			public const int volume_item_container = 2131361967;
@@ -7643,6 +7651,12 @@ namespace MovieApp.Droid
 			
 			// aapt resource value: 0x7f040046
 			public const int tooltip = 2130968646;
+			
+			// aapt resource value: 0x7f040047
+			public const int zxingscanneractivitylayout = 2130968647;
+			
+			// aapt resource value: 0x7f040048
+			public const int zxingscannerfragmentlayout = 2130968648;
 			
 			static Layout()
 			{

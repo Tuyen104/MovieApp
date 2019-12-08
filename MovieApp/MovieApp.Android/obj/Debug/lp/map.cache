@@ -1,13 +1,13 @@
 Acr.UserDialogs
 AndHUD
 DryIoc
+FastAndroidCamera
 FFImageLoading
 FFImageLoading.Forms
 FFImageLoading.Forms.Platform
 FFImageLoading.Platform
 FormsViewGroup
 MovieApp
-Naxam.TopTabbedPage.Forms
 Newtonsoft.Json
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
@@ -46,6 +46,11 @@ Xamarin.Forms.Extended.InfiniteScrolling
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+ZXing.Net.Mobile.Core
+ZXing.Net.Mobile.Forms.Android
+ZXing.Net.Mobile.Forms
+zxing.portable
+ZXingNetMobile
 netstandard
 System.Diagnostics.Tools
 System.Reflection.Extensions
@@ -53,5 +58,3 @@ System.ComponentModel.Annotations
 System.Threading.Tasks.Extensions
 System.Runtime.InteropServices.WindowsRuntime
 System.Resources.ResourceManager
-FastAndroidCamera
-ZXing.Net.Mobile.Forms.Android

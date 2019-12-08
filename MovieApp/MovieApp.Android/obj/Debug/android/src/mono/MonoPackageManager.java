@@ -114,13 +114,13 @@ class MonoPackageManager_Resources {
 		"Acr.UserDialogs.dll",
 		"AndHUD.dll",
 		"DryIoc.dll",
+		"FastAndroidCamera.dll",
 		"FFImageLoading.dll",
 		"FFImageLoading.Forms.dll",
 		"FFImageLoading.Forms.Platform.dll",
 		"FFImageLoading.Platform.dll",
 		"FormsViewGroup.dll",
 		"MovieApp.dll",
-		"Naxam.TopTabbedPage.Forms.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Connectivity.Abstractions.dll",
 		"Plugin.Connectivity.dll",
@@ -158,6 +158,11 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"ZXing.Net.Mobile.Core.dll",
+		"ZXing.Net.Mobile.Forms.Android.dll",
+		"ZXing.Net.Mobile.Forms.dll",
+		"zxing.portable.dll",
+		"ZXingNetMobile.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

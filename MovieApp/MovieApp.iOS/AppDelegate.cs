@@ -1,5 +1,4 @@
 ﻿using Foundation;
-using Naxam.Controls.Platform.iOS;
 using Prism;
 using Prism.Ioc;
 using UIKit;
@@ -27,7 +26,6 @@ namespace MovieApp.iOS
             ZXing.Net.Mobile.Forms.iOS.Platform.Init();
 
             LoadApplication(new App(new iOSInitializer()));
-            TopTabbedRenderer.Init();
 
             return base.FinishedLaunching(app, options);
         }

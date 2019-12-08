@@ -99,6 +99,7 @@
     <Compile Include="Renderers\CustomFrameRenderer.cs" />
     <Compile Include="Renderers\MultiLineLabelRenderer_IOS.cs" />
     <Compile Include="Renderers\SearchBarCustomRenderer_IOS.cs" />
+    <Compile Include="Renderers\CustomTopTabbedPageRenderer_IOS.cs" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\Contents.json">

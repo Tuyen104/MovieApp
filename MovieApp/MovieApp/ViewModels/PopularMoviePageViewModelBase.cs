@@ -97,7 +97,7 @@ namespace MovieApp.ViewModels
         {
 
             ApiResponse<MovieList> response;
-
+            bool continueLoad = true;
             Task.Run(async () =>
             {
                 MovieList = new InfiniteScrollCollection<Movie>
@@ -111,7 +111,15 @@ namespace MovieApp.ViewModels
                         response = await _movieService.GetSearchMovieRequest(keyword, page);
                         response.Check((result) =>
                         {
+                            if(result.TotalResults == 0)
+                            {
+                                continueLoad = false;
+                                _dialogService.DisplayAlertAsync("Warninng", "No result!!!", "OK");
+                                return;
+                            }
+                            else
                             movie = _movieService.GetMovieList(result);
+
                         });
                         return movie;
                     }
