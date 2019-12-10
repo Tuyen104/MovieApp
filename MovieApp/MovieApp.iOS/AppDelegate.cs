@@ -23,9 +23,10 @@ namespace MovieApp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
-            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
-
+            
             LoadApplication(new App(new iOSInitializer()));
+
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
 
             return base.FinishedLaunching(app, options);
         }

@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{4156DBCE-543A-4616-9E40-BEF3E81FD9D7}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿﻿<Properties StartupConfiguration="{4156DBCE-543A-4616-9E40-BEF3E81FD9D7}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/MovieApp/Views/MovieDetailPage.xaml">
     <Files>
       <File FileName="MovieApp/MovieApp/Controls/CustomTopTabbedPage.cs" Line="1" Column="14" />
@@ -41,12 +41,12 @@
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="MovieApp.Android" expanded="True">
+
               <Node name="Packages" expanded="True" />
               <Node name="Resources" expanded="True" />
+
             </Node>
             <Node name="MovieApp.iOS" expanded="True">
-              <Node name="Packages" expanded="True" />
-              <Node name="Renderers" expanded="True" />
               <Node name="Resources" expanded="True" />
             </Node>
           </Node>
@@ -54,7 +54,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.MovieApp.Android PreferredExecutionTarget="Android.my_device_01" />
+<MonoDevelop.Ide.ItemProperties.MovieApp.Android PreferredExecutionTarget="Android.my_device_01" />
+
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

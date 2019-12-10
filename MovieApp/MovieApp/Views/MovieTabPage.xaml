@@ -4,6 +4,10 @@
              x:Class="MovieApp.Views.MovieTabPage"
              xmlns:local="clr-namespace:MovieApp.Views"
              xmlns:controls="clr-namespace:MovieApp.Controls"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.IsSwipePagingEnabled="false"
+             BarTextColor="#00b9e1"
+             BarBackgroundColor="#ffffff"
              Title=" Movie App">
     <local:PopularMoviePage Title="Popular Movie"/>
     <local:UpComingMoviePage Title="UpComing Movie"/>
